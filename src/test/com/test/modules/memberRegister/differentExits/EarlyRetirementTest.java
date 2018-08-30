@@ -1,7 +1,7 @@
-package com.test.modules.memberRegister.differentEJKUatts;
+package com.test.modules.memberRegister.differentExits;
 
 import com.JKUat.base.BaseClass;
-import com.JKUat.modules.memberModule.reasonsForEJKUatt.EarlyRetirement;
+import com.JKUat.modules.memberModule.reasonsForExit.EarlyRetirement;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
 import org.testng.annotations.BeforeClass;

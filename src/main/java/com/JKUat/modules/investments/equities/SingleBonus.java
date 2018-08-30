@@ -33,7 +33,7 @@ public class SingleBonus extends BaseClass {
     @FindBy(xpath = "//*[@id=\"ext-gen149\"]")
     WebElement bonus;
 
-    @FindBy(name = "Single Bonus")
+    @FindBy(linkText = "Single Bonus")
     WebElement singleBonus;
 
     @FindBy(id = "fundManagerId")
@@ -50,13 +50,14 @@ public class SingleBonus extends BaseClass {
 
 //    @FindBy(name = "equityBonus.sharesB4Bonus")
 //    WebElement sharesBeforeBonus;
+
     @FindBy(name = "equityBonus.thisShares")
     WebElement getShares;
 
     @FindBy(name = "equityBonus.sharesHeld")
     WebElement forThisSharesHeld;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen265\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen252\"]")
     WebElement save;
 
 
@@ -102,6 +103,9 @@ public class SingleBonus extends BaseClass {
 
     public void enterBonusCreditDate(String bCdat){
         bonusCreditDate.sendKeys(bCdat,Keys.ENTER);}
+
+//    public void enterSharesBeforeBonus(String sbb){
+//        sharesBeforeBonus.sendKeys(sbb,Keys.ENTER);}
 
     public void captureGetShares(String getsh){
         getShares.sendKeys(getsh,Keys.ENTER);}

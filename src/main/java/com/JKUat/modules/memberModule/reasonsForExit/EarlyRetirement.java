@@ -1,4 +1,4 @@
-package com.JKUat.modules.memberModule.reasonsForEJKUatt;
+package com.JKUat.modules.memberModule.reasonsForExit;
 
 import com.JKUat.base.BaseClass;
 import org.openqa.selenium.Keys;
@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 
 public class EarlyRetirement extends BaseClass {
 
-    public static final Logger log = Logger.getLogger(IllHealth.class.getName());
+    public static final Logger log = Logger.getLogger(EarlyRetirement.class.getName());
     public WebDriver driver;
 
     @FindBy(name = "mMemberNo")
