@@ -1,19 +1,16 @@
-package com.test.modules.investments.equities;
+package com.test.modules.investments.otherSetups;
 
 import com.JKUat.base.BaseClass;
 import com.JKUat.base.LoginPage;
-import com.JKUat.modules.investments.equities.SingleValuation;
+import com.JKUat.modules.investments.otherSetups.NewExchangeRate;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class SingleValuationTest extends BaseClass {
-
-
+public class NewExchangeRateTest extends BaseClass {
     @BeforeClass
     public void setUp() throws Exception {
         init();
-
     }
 
 
@@ -26,33 +23,27 @@ public class SingleValuationTest extends BaseClass {
     }
 
     @Test(priority = 1)
-    public void doSingleValuation()throws Exception{
-        SingleValuation sv=new SingleValuation(driver);
-        log.info("===========Making a single Valuation=======");
-        sv.openInvestmentModule();
+    public void createAnewExchangeRate()throws Exception{
+        NewExchangeRate ner=new NewExchangeRate(driver);
+        log.info("================started creating a new Exchange Rate================");
+        ner.openInvestmentModule();
         Thread.sleep(5000);
-        sv.clickOnEquities();
-        Thread.sleep(5000);
-        sv.clickOnCompanies();
+        ner.clickOtherSetups();
         Thread.sleep(3000);
-        sv.searchACompany("BRITAM");
+        ner.clickForexRates();
         Thread.sleep(3000);
-        sv.selectCompany();
+        ner.clickNewExchangeRates();
         Thread.sleep(3000);
-        sv.selectValuation();
+        ner.enterTargetCurrency("USD");
         Thread.sleep(3000);
-        sv.selectSingleValuation();
+        ner.enterXchangeRate("100");
         Thread.sleep(3000);
-        sv.enterEquityPrice("100000000");
+        ner.setXchangeRate();
         Thread.sleep(3000);
-        sv.clickSave();
-        Thread.sleep(3000);
-        log.info("===========A Single Valuation complete!!!=======");
 
     }
-
     @AfterTest
-    public void afterTest(){
+    public void  closeBrowser(){
         driver.quit();
     }
 }
