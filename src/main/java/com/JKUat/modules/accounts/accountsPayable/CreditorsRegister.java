@@ -1,6 +1,7 @@
 package com.JKUat.modules.accounts.accountsPayable;
 
 import com.JKUat.base.BaseClass;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,19 +18,19 @@ public class CreditorsRegister extends BaseClass {
     @FindBy(xpath = "//*[@id=\"x-desktop\"]/center/table/tbody/tr[2]/td[1]")
     WebElement accounts;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen38\"]")
-    WebElement accountsReceivable;
+    @FindBy(xpath = "//*[@id=\"ext-gen42\"]")
+    WebElement accountsPayable;
 
-    @FindBy(linkText = "Debtors Register")
-    WebElement debtorRegister;
+    @FindBy(linkText = "Creditors Register")
+    WebElement creditorRegister;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen139\"]")
-    WebElement newDebtor;
+    @FindBy(xpath = "//*[@id=\"ext-gen123\"]")
+    WebElement newCreditor;
 
     @FindBy(name = "creditorDebtor.name")
     WebElement name;
 
-    @FindBy(xpath = "//*[@id=\"ext-comp-1183\"]")
+    @FindBy(xpath = "//*[@id=\"ext-comp-1185\"]")
     WebElement creditorType;
 
     @FindBy(name = "creditorDebtor.address.cellPhone")
@@ -37,6 +38,9 @@ public class CreditorsRegister extends BaseClass {
 
     @FindBy(name = "creditorDebtor.address.country")
     WebElement country;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen181\"]")
+    WebElement save;
 
 
     public CreditorsRegister(WebDriver driver) {
@@ -46,13 +50,33 @@ public class CreditorsRegister extends BaseClass {
     public void openAccountsModule(){
         accounts.click();
     }
-    public  void clickOnAccountsReceivable(){
-        accountsReceivable.click();
+    public  void clickOnAccountsPayable(){
+        accountsPayable.click();
     }
-    public void clickOndebtorRegister(){
-        debtorRegister.click();
+    public void clickOnCreditorRegister(){
+        creditorRegister.click();
     }
-    public void clickOnNewDebtor(){
-        newDebtor.click();
+    public void clickOnNewCreditor(){
+        newCreditor.click();
+    }
+
+    public void enterName(String nm){
+        name.sendKeys(nm,Keys.ENTER);
+    }
+
+    public void enterCreditorType(String cryt){
+        creditorType.sendKeys(cryt, Keys.ENTER);
+    }
+
+    public void enterCellphone(String cell){
+        cellPhone.sendKeys(cell,Keys.ENTER);
+    }
+
+    public void enterCountry(String con){
+        country.sendKeys(con,Keys.ENTER);
+    }
+
+    public void clickSave(){
+        save.click();
     }
 }
