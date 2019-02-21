@@ -20,11 +20,11 @@ public class MemberApproval extends BaseClass {
     private WebElement memberApprovalOption;
     @FindBy(name = "mMemberNo2")
     private WebElement enterMemberNo;
-    @FindBy(xpath = "//*[@id=\"ext-gen126-gp-mclass--bd\"]/div/table/tbody/tr/td[1]/div/div")
+    @FindBy(xpath = "//*[@id=\"ext-gen129-gp-mclass-CLASS ONE-bd\"]/div")
     private WebElement selectMember;
-    @FindBy(xpath = "//button[contains(.,'Approve')]")
+    @FindBy(xpath = "//*[@id=\"ext-gen172\"]")
     WebElement approve;
-    @FindBy(xpath = "//*[@id=\"ext-comp-1695\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen200\"]")
     WebElement selectedmember;
 
     public MemberApproval(WebDriver driver) {

@@ -2,8 +2,8 @@ package com.test.modules.memberRegister.member;
 
 
 import com.JKUat.base.BaseClass;
-import com.JKUat.base.LoginPage;
 import com.JKUat.modules.memberModule.members.NewMember;
+import com.JKUat.modules.schemeSetup.ChangeUserPassword;
 import com.test.base.JyperionListener;
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeClass;
@@ -23,11 +23,15 @@ public class NewMemberRegisterTest extends BaseClass {
     }
 
     @Test(priority = 0)
-    public void login() throws Exception {
-        log.info("=========logging in user ================");
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.login("admin", "admin");
-        log.info("=============successfully logged in===========");
+    public void switchScheme()throws Exception {
+        ChangeUserPassword asd = new ChangeUserPassword(driver);
+        Thread.sleep(3000);
+        asd.enterloginUsername("selly1");
+        Thread.sleep(3000);
+        asd.enterloginPasswd("S@lpha123");
+        Thread.sleep(3000);
+        asd.clickSaveLogin();
+        Thread.sleep(3000);
     }
 
 
@@ -35,40 +39,46 @@ public class NewMemberRegisterTest extends BaseClass {
     public void createANewMember()throws Exception {
         NewMember newMember =new NewMember(driver);
         Thread.sleep(1500);
-        newMember.clickMembeRegister();
-        Thread.sleep(2000);
         newMember.clickMemberButton();
-        Thread.sleep(1500);
-        newMember.clickMemberOption();
+        Thread.sleep(3000);
+        newMember.clicNewkMemberOption();
         log.info("=======adding a new newMember==========");
         Thread.sleep(3000);
-        newMember.clickTitleDropDown();
+        newMember.enterTitle("Mr.");
         Thread.sleep(1500);
-        newMember.clicktitleOption();
+        newMember.enterSurname("Good");
         Thread.sleep(1500);
-        newMember.enterSurname("Atemba");
+        newMember.enterFirstName("Bad");
         Thread.sleep(1500);
-        newMember.enterFirstName("Selpha");
-        Thread.sleep(1500);
-        newMember.enterGender("Female");
+        newMember.enterGender("Male");
         Thread.sleep(1500);
         newMember.enterMaritalStatus("Married");
         Thread.sleep(1500);
         newMember.enterDOB("07/01/2000");
         Thread.sleep(1500);
-        newMember.enterDateOfAppointment("07/01/2017");
+        newMember.enterIDType("National ID");
         Thread.sleep(1500);
-        newMember.enterDateOfJoiningScheme("07/10/2017");
+        newMember.enterIDNumber("40040014");
         Thread.sleep(1500);
-        newMember.enterCostCenter("Default Company");
+        newMember.enterDateOfAppointment("02/13/2013");
         Thread.sleep(1500);
-        newMember.enterMemberClass("Default");
+        newMember.enterDateOfJoiningScheme("02/11/2019");
+        Thread.sleep(1500);
+        newMember.enterCostCenter("JKUAT TESTING SPONSOR2 Cost Centre");
+        Thread.sleep(1500);
+        newMember.enterMemberClass("CLASS ONE");
         Thread.sleep(5000);
+//        newMember.enterSavingsCategory("");
+//        Thread.sleep(5000);
+//        newMember.enterSavingPeriod("120");
+//        Thread.sleep(5000);
+//        newMember.enterDateOfSubscription("11/12/2016");
+//        Thread.sleep(5000);
         newMember.clickSaveButton();
         Thread.sleep(5000);
         number=driver.findElement(By.name("member.memberNo")).getAttribute("value");
 
-        driver.navigate().refresh();
+       // driver.navigate().refresh();
 
         log.info("NewMember number==" +number+" ===has succesfully been added");
 

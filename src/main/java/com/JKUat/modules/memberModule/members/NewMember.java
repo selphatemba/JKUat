@@ -12,38 +12,41 @@ import java.util.concurrent.TimeUnit;
 public class NewMember extends BaseClass {
     private WebDriver driver;
 
-
-    @FindBy(id = "membLnk")
-    private WebElement memberRegisterModule;
-    @FindBy(id = "ext-gen49")
-    private WebElement memberButton;
-    @FindBy(id = "ext-gen93")
-    private WebElement memberOption;
-    @FindBy(id = "ext-gen192")
-    private WebElement titleDropDown;
-    @FindBy(xpath = "//*[@id=\"ext-gen463\"]/div[3]")
-    private WebElement titleOption;
-    @FindBy(id = "ext-gen14")
-    private WebElement title;
+    @FindBy(xpath = "//*[@id=\"ext-comp-1333\"]/tbody/tr[2]/td[2]/em")
+     WebElement members;
+    @FindBy(linkText = "New Member")
+    WebElement newMember;
+    @FindBy(xpath="//*[@id=\"ext-comp-1690\"]")
+     WebElement title;
     @FindBy(name = "member.surname")
-    private WebElement surName;
+     WebElement surName;
     @FindBy(name = "member.firstname")
-    private WebElement firstName;
-    @FindBy(xpath= "//*[@id=\"ext-comp-1673\"]")
-    private WebElement gender;
-    @FindBy(xpath = "//*[@id=\"ext-comp-1674\"]")
-    private WebElement maritalStatus;
+    WebElement firstName;
+    @FindBy(xpath= "//*[@id=\"ext-comp-1694\"]")
+    WebElement gender;
+    @FindBy(xpath = "//*[@id=\"ext-comp-1695\"]")
+    WebElement maritalStatus;
     @FindBy(name = "member.dob")
-    private WebElement dateOfBirth;
-    @FindBy(name = "member.dateOfEmployment")
-    private WebElement dateOfAppointment;
+    WebElement dateOfBirth;
+    @FindBy(xpath = "//*[@id=\"ext-comp-1696\"]")
+    WebElement IDtype;
+    @FindBy(name = "member.idNo")
+    WebElement IDNumber;
     @FindBy(name = "member.dateJoinedScheme")
-    private WebElement dateOfJoiningScheme;
-    @FindBy(xpath = "//*[@id=\"ext-comp-1702\"]")
-    private WebElement costCenter;
-    @FindBy(xpath= "//*[@id=\"ext-comp-1703\"]")
-    private WebElement memberClass;
-    @FindBy(css = "#ext-gen153")
+    WebElement dateOfJoiningScheme;
+    @FindBy(xpath = "//*[@id=\"ext-comp-1723\"]")
+    WebElement costCenter;
+    @FindBy(xpath= "//*[@id=\"ext-comp-1724\"]")
+    WebElement memberClass;
+    @FindBy(name = "member.dateOfEmployment")
+    WebElement dateOfAppointment;
+    @FindBy(xpath = "//*[@id=\"ext-comp-1727\"]")
+    WebElement savingsCategory;
+    @FindBy(name = "member.savingsYears")
+    WebElement savingsPeriod;
+    @FindBy(name = "member.dateSubscribedToSavingsPlan")
+    WebElement dateOfSubscription;
+    @FindBy(xpath = "//*[@id=\"ext-gen156\"]")
     WebElement saveButton;
 
     @FindBy(partialLinkText = "Close")
@@ -57,24 +60,16 @@ public class NewMember extends BaseClass {
     }
 
 
-    public void clickMembeRegister() {
-        memberRegisterModule.click();
-    }
-
     public void clickMemberButton() {
-        memberButton.click();
+        members.click();
     }
 
-    public void clickMemberOption() {
-        memberOption.click();
+    public void clicNewkMemberOption() {
+        newMember.click();
     }
 
-    public void clickTitleDropDown() {
-        titleDropDown.click();
-    }
-
-    public void clicktitleOption() {
-        titleOption.click();
+    public void enterTitle(String ttl) {
+        title.sendKeys(ttl,Keys.TAB);
     }
 
     public void enterSurname(String surname) {
@@ -86,7 +81,7 @@ public class NewMember extends BaseClass {
     }
 
     public void enterGender(String gendr) {
-        gender.sendKeys(gendr, Keys.ENTER);
+        gender.sendKeys(gendr, Keys.TAB);
     }
 
     public void enterMaritalStatus(String maristatus) {
@@ -97,10 +92,13 @@ public class NewMember extends BaseClass {
         dateOfBirth.sendKeys(dob);
     }
 
-    public void enterDateOfAppointment(String dateOfAppoint) {
-        dateOfAppointment.clear();
-        dateOfAppointment.sendKeys(dateOfAppoint);
+    public void enterIDType(String idt){
+        IDtype.sendKeys(idt,Keys.TAB);
     }
+    public void enterIDNumber(String idNo){
+        IDNumber.sendKeys(idNo,Keys.TAB);
+    }
+
 
     public void enterDateOfJoiningScheme(String dofjoininsch) {
         dateOfJoiningScheme.clear();
@@ -108,15 +106,32 @@ public class NewMember extends BaseClass {
     }
 
     public void enterCostCenter(String costcntr) {
-        costCenter.sendKeys(costcntr);
+        costCenter.sendKeys(costcntr,Keys.TAB);
     }
 
     public void enterMemberClass(String mbrclass) {
-        memberClass.sendKeys(mbrclass);
+        memberClass.sendKeys(mbrclass,Keys.TAB);
+    }
+
+    public void enterSavingsCategory(String sc){
+        savingsCategory.sendKeys(sc,Keys.TAB);
+    }
+
+    public void enterSavingPeriod(String savingsPer){
+        savingsPeriod.sendKeys(savingsPer,Keys.TAB);
+    }
+
+    public void enterDateOfSubscription(String sub){
+        dateOfSubscription.sendKeys(sub,Keys.TAB);
     }
 
     public void clickSaveButton() {
         saveButton.click();
+    }
+
+    public void enterDateOfAppointment(String doa){
+        dateOfAppointment.clear();
+        dateOfAppointment.sendKeys(doa,Keys.TAB);
     }
 }
 

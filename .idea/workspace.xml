@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="146b78fa-4d59-4724-b699-62f420649daa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/DirectPayments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/PaymentProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/AddAllowedSchemes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/ProfilePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/AdditionalSchemeDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/ChangeUserPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewSponsor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/SponsorApproval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/DirectPaymentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/PaymentProcessingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/AddAllowedSchemesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewProfileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/ProfilePermissionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/AdditionalSchemeDetailsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/ChangeUserPasswordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSponsorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/SponsorApprovalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc2721bf-8e77-47f7-ad28-a03bd8c91973.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cc2721bf-8e77-47f7-ad28-a03bd8c91973.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C:/selenium/com.test.base.JyperionListener.png" beforeDir="false" afterPath="$PROJECT_DIR$/C:/selenium/com.test.base.JyperionListener.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JKUat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JKUat.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/JKUat.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/base/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/drivers/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/drivers/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/drivers/geckodriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/AccountsReceivable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/ProcessPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/PostingPayable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsReceivable/DebtorsRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsReceivable/DebtorsRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/BatchContributions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/BatchContributions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/ContributionsReceivables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/ContributionsReceivables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/DirectContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/DirectContr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/PreviousBatchContributions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/PreviousBatchContributions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/BatchMovements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/BatchMovements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/DeathProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/DeathProcessing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewBeneficiary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewBeneficiary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/RunBalances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/RunBalances.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/ValidateBeneficiary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/ValidateBeneficiary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/reasonsForExit/EarlyRetirement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/reasonsForExit/EarlyRetirement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/reasonsForExit/IllHealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/reasonsForExit/IllHealth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewScheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewScheme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configurations.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configurations.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/base/JyperionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/base/JyperionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/ProcessPaymentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/PostingPayableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsReceivable/DebtorRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsReceivable/DebtorRegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/ClaimPaymentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/ClaimPaymentsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/DeferedBenefits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/DeferedBenefits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/ShortFallInterestListingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/ShortFallInterestListingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/TrustFundsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/TrustFundsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/unvestedBenefits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/unvestedBenefits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/ContributionReceivablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/ContributionReceivablesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/DirectContributionsUpdateContrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/DirectContributionsUpdateContrTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/MissingContributions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/MissingContributions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/PreviousBatchContributionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/PreviousBatchContributionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/singleContribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/singleContribution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/BatchMovementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/BatchMovementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/EarlyRetirementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/EarlyRetirementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/illHealthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/illHealthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/financialPeriods/FinancialPeriodsRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/financialPeriods/FinancialPeriodsRegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchMembersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchMembersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesEndorsements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesEndorsements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesUpdateUsingNominalForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesUpdateUsingNominalForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesUpdateusingGeneratedCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesUpdateusingGeneratedCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/ClosingBalances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/ClosingBalances.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/HistoricalClaimsBenefits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/HistoricalClaimsBenefits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MemberUpdatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MemberUpdatesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MembersEndorsments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MembersEndorsments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewBeneficiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewBeneficiaryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberRegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/ValidateBeneficiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/ValidateBeneficiaryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/RegisteredReserveBalancesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/RegisteredReserveBalancesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/RegisteredReserveTransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/RegisteredReserveTransactionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/UnregisteredReserveBalancesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/UnregisteredReserveBalancesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/BatchSponsorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/BatchSponsorsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSchemeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSchemeTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/configurations.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Chunk</find>
+      <find />
+      <find>imdb</find>
+      <find>batchMe</find>
+      <find>sikulix</find>
+      <find>sikuli</find>
+      <find>.maximize</find>
+      <find>batchSchedule</find>
+      <find>JKUat</find>
+      <find>F</find>
+      <find>nu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>JKUat</replace>
+      <replace>asc</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/investments/deposits/NewCashCallDepositTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/investments/otherSetups/ForexRates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/investments/otherSetups/NewExchangeRate.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/investments/otherSetups/NewExchangeRateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/CreditorsRegister.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/NewPayable.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/CreditorsRegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/NewPayableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/ProcessPayment.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/ProcessPaymentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/PaymentProcessingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/PaymentProcessing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/DirectPayments.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/DirectPaymentsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsReceivable/DebtorsRegister.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsReceivable/DebtorRegisterTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewMemberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewMember.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewProfile.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewProfileTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/ProfilePermission.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/ProfilePermissionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/AdditionalSchemeDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewScheme.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/base/BaseClass.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/configurations.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/AddAllowedSchemes.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewUserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/AddAllowedSchemesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/ChangePassword.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/ChangePasswordTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/PasswordChangeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/ChangeUserPassword.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/ChangeUserPasswordTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/AdditionalSchemeDetails.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/AdditionalSchemeDetailsTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db056ed3-59d9-4016-8987-4c8389d271cf/console.sql" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSponsorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewSponsor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/SponsorApproval.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/SponsorApprovalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewMember.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/BatchContributions.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSchemeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberRegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JKUat Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="administrativePanel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="memberModule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="memberModule" type="462c0819:PsiDirectoryNode" />
+              <item name="contributions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="memberModule" type="462c0819:PsiDirectoryNode" />
+              <item name="members" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="schemeSetup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="administrativePanel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="memberRegister" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="memberRegister" type="462c0819:PsiDirectoryNode" />
+              <item name="contributions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="memberRegister" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="schemeSetup" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="azure&#10;oracle" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550756636202" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5574324" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dirisha\Documents\IdeaProjects\JKUat\src\main" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/XiTest/modules/memberModule/reasonsForExit" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/XiTest/modules/memberModule/member" />
+      <recent name="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.XiTest.modules.memberModule.members" />
+      <recent name="com.XiTest.modules.schemeSetup" />
+      <recent name="com.XiTest.modules.memberModule.contributions" />
+      <recent name="com.test.modules.memberRegister.member.financialPeriods" />
+      <recent name="com.XiTest.modules.memberModule.claimActivities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/com/test/base" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.NewMemberApprovalTest">
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdditionalSchemeDetailsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JKUat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.modules.schemeSetup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.modules.schemeSetup" />
+      <option name="MAIN_CLASS_NAME" value="com.test.modules.schemeSetup.AdditionalSchemeDetailsTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewMemberApprovalTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JKUat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.modules.memberRegister.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.modules.memberRegister.member" />
+      <option name="MAIN_CLASS_NAME" value="com.test.modules.memberRegister.member.NewMemberApprovalTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewMemberRegisterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JKUat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.modules.memberRegister.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.modules.memberRegister.member" />
+      <option name="MAIN_CLASS_NAME" value="com.test.modules.memberRegister.member.NewMemberRegisterTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewSponsorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JKUat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.modules.schemeSetup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.modules.schemeSetup" />
+      <option name="MAIN_CLASS_NAME" value="com.test.modules.schemeSetup.NewSponsorTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SponsorApprovalTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JKUat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.modules.schemeSetup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.modules.schemeSetup" />
+      <option name="MAIN_CLASS_NAME" value="com.test.modules.schemeSetup.SponsorApprovalTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.NewSponsorTest" />
+      <item itemvalue="TestNG.SponsorApprovalTest" />
+      <item itemvalue="TestNG.AdditionalSchemeDetailsTest" />
+      <item itemvalue="TestNG.NewMemberRegisterTest" />
+      <item itemvalue="TestNG.NewMemberApprovalTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.NewMemberApprovalTest" />
+        <item itemvalue="TestNG.NewMemberRegisterTest" />
+        <item itemvalue="TestNG.SponsorApprovalTest" />
+        <item itemvalue="TestNG.AdditionalSchemeDetailsTest" />
+        <item itemvalue="TestNG.NewSponsorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="146b78fa-4d59-4724-b699-62f420649daa" name="Default" comment="" />
+      <created>1530619855600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530619855600</updated>
+      <workItem from="1530619862630" duration="1643000" />
+      <workItem from="1530621892516" duration="2716000" />
+      <workItem from="1530625641773" duration="1724000" />
+      <workItem from="1530678282087" duration="4795000" />
+      <workItem from="1530683462490" duration="13279000" />
+      <workItem from="1530699744314" duration="14423000" />
+      <workItem from="1530764942136" duration="9364000" />
+      <workItem from="1530774483448" duration="16320000" />
+      <workItem from="1530850643369" duration="10857000" />
+      <workItem from="1531110229274" duration="11978000" />
+      <workItem from="1531135568086" duration="6018000" />
+      <workItem from="1531196754719" duration="1306000" />
+      <workItem from="1531220425982" duration="10691000" />
+      <workItem from="1531286748715" duration="9378000" />
+      <workItem from="1531299076733" duration="12220000" />
+      <workItem from="1531314989118" duration="3178000" />
+      <workItem from="1531369132651" duration="27462000" />
+      <workItem from="1531455587760" duration="11455000" />
+      <workItem from="1531714518975" duration="8895000" />
+      <workItem from="1531732409884" duration="6045000" />
+      <workItem from="1531800188685" duration="17281000" />
+      <workItem from="1531827886235" duration="6294000" />
+      <workItem from="1531836236801" duration="1535000" />
+      <workItem from="1531909893822" duration="2915000" />
+      <workItem from="1531979684697" duration="4898000" />
+      <workItem from="1531991665336" duration="2660000" />
+      <workItem from="1531999425488" duration="1922000" />
+      <workItem from="1532003628659" duration="3204000" />
+      <workItem from="1532062263095" duration="18309000" />
+      <workItem from="1532088915014" duration="1486000" />
+      <workItem from="1532319656677" duration="6428000" />
+      <workItem from="1532350287908" duration="791000" />
+      <workItem from="1532353979883" duration="1048000" />
+      <workItem from="1532408104992" duration="9531000" />
+      <workItem from="1532425207096" duration="2306000" />
+      <workItem from="1532439554992" duration="1375000" />
+      <workItem from="1532493847543" duration="15518000" />
+      <workItem from="1532579870649" duration="378000" />
+      <workItem from="1532581906316" duration="4031000" />
+      <workItem from="1532593149727" duration="8043000" />
+      <workItem from="1532608544420" duration="3244000" />
+      <workItem from="1532666748326" duration="2056000" />
+      <workItem from="1532671187773" duration="10032000" />
+      <workItem from="1532683250185" duration="3715000" />
+      <workItem from="1532692280398" duration="7141000" />
+      <workItem from="1532924267375" duration="5763000" />
+      <workItem from="1532936571951" duration="1968000" />
+      <workItem from="1532940034611" duration="2614000" />
+      <workItem from="1532943252400" duration="6174000" />
+      <workItem from="1532954172609" duration="2354000" />
+      <workItem from="1533101712587" duration="1696000" />
+      <workItem from="1533105154243" duration="558000" />
+      <workItem from="1533113419082" duration="5261000" />
+      <workItem from="1533124269645" duration="5958000" />
+      <workItem from="1533183701185" duration="10971000" />
+      <workItem from="1533198861912" duration="3883000" />
+      <workItem from="1533208539179" duration="10093000" />
+      <workItem from="1533269529093" duration="5182000" />
+      <workItem from="1533276085512" duration="2463000" />
+      <workItem from="1533528610663" duration="4325000" />
+      <workItem from="1533544449411" duration="74000" />
+      <workItem from="1533547418358" duration="6069000" />
+      <workItem from="1533555816173" duration="424000" />
+      <workItem from="1533556700032" duration="458000" />
+      <workItem from="1533557666113" duration="272000" />
+      <workItem from="1533615617014" duration="2507000" />
+      <workItem from="1533623622147" duration="1745000" />
+      <workItem from="1533625808983" duration="10599000" />
+      <workItem from="1533701949915" duration="854000" />
+      <workItem from="1533707118979" duration="6784000" />
+      <workItem from="1533714906294" duration="6205000" />
+      <workItem from="1533722594391" duration="148000" />
+      <workItem from="1533722786606" duration="5417000" />
+      <workItem from="1533730320162" duration="5901000" />
+      <workItem from="1533788291877" duration="6900000" />
+      <workItem from="1533803723867" duration="210000" />
+      <workItem from="1533807090263" duration="936000" />
+      <workItem from="1533808776943" duration="40000" />
+      <workItem from="1533814586560" duration="515000" />
+      <workItem from="1534941091701" duration="2556000" />
+      <workItem from="1534997147673" duration="5169000" />
+      <workItem from="1535006575315" duration="11605000" />
+      <workItem from="1535030278267" duration="1680000" />
+      <workItem from="1535083919066" duration="1609000" />
+      <workItem from="1535088122733" duration="4933000" />
+      <workItem from="1535095038484" duration="10517000" />
+      <workItem from="1535111157061" duration="487000" />
+      <workItem from="1535111776837" duration="6062000" />
+      <workItem from="1535343857459" duration="16031000" />
+      <workItem from="1535430744290" duration="3499000" />
+      <workItem from="1535436643973" duration="14825000" />
+      <workItem from="1535455725823" duration="5344000" />
+      <workItem from="1535517523959" duration="2490000" />
+      <workItem from="1535536209125" duration="2605000" />
+      <workItem from="1535604408676" duration="5259000" />
+      <workItem from="1535622753458" duration="1778000" />
+      <workItem from="1535692284719" duration="905000" />
+      <workItem from="1535694194664" duration="18795000" />
+      <workItem from="1535952290560" duration="17926000" />
+      <workItem from="1535976369703" duration="6892000" />
+      <workItem from="1536036155190" duration="4936000" />
+      <workItem from="1536042806047" duration="14249000" />
+      <workItem from="1536065297238" duration="1453000" />
+      <workItem from="1536123328303" duration="16463000" />
+      <workItem from="1536148573626" duration="4910000" />
+      <workItem from="1536296144683" duration="1068000" />
+      <workItem from="1536298401036" duration="15828000" />
+      <workItem from="1536319591980" duration="6835000" />
+      <workItem from="1536552784688" duration="8165000" />
+      <workItem from="1536651798006" duration="975000" />
+      <workItem from="1536653582512" duration="20000" />
+      <workItem from="1548653686032" duration="2106000" />
+      <workItem from="1548656199029" duration="19516000" />
+      <workItem from="1548762046563" duration="684000" />
+      <workItem from="1548826501949" duration="54004000" />
+      <workItem from="1549429315392" duration="337000" />
+      <workItem from="1549430280496" duration="553000" />
+      <workItem from="1549433375883" duration="19395000" />
+      <workItem from="1549517744398" duration="2216000" />
+      <workItem from="1549527110066" duration="11393000" />
+      <workItem from="1549545420872" duration="18379000" />
+      <workItem from="1549864016672" duration="15829000" />
+      <workItem from="1549948856973" duration="35062000" />
+      <workItem from="1550132744027" duration="6348000" />
+      <workItem from="1550206914713" duration="9034000" />
+      <workItem from="1550554966715" duration="11033000" />
+      <workItem from="1550722345695" duration="589000" />
+      <workItem from="1550733530990" duration="700000" />
+      <workItem from="1550742488039" duration="3422000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1535449371203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535449371212</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1535604848232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535604848232</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second commit">
+      <created>1535981928549</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535981928550</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Third commit">
+      <created>1536146310676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536146310677</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AdditionalSchemeDetailsTest - 2019.02.19 at 10h 38m 37s.xml">
+      <configuration name="AdditionalSchemeDetailsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SponsorApprovalTest - 2019.02.19 at 10h 51m 20s.xml">
+      <configuration name="SponsorApprovalTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewMemberRegisterTest - 2019.02.19 at 10h 53m 12s.xml">
+      <configuration name="NewMemberRegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewMemberRegisterTest - 2019.02.19 at 10h 57m 42s.xml">
+      <configuration name="NewMemberRegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewMemberRegisterTest - 2019.02.19 at 11h 02m 26s.xml">
+      <configuration name="NewMemberRegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewMemberRegisterTest - 2019.02.19 at 11h 19m 56s.xml">
+      <configuration name="NewMemberRegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewMemberRegisterTest - 2019.02.19 at 11h 21m 12s.xml">
+      <configuration name="NewMemberRegisterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewMemberApprovalTest - 2019.02.19 at 11h 26m 37s.xml">
+      <configuration name="NewMemberApprovalTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewMemberApprovalTest - 2019.02.19 at 11h 28m 19s.xml">
+      <configuration name="NewMemberApprovalTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewMemberApprovalTest - 2019.02.19 at 11h 55m 32s.xml">
+      <configuration name="NewMemberApprovalTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="871678000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833333" visible="true" weight="0.2980333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" sideWeight="0.50166667" side_tool="true" weight="0.25872535" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Ant Build" order="8" sideWeight="0.50166667" side_tool="true" weight="0.3353566" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49544764" weight="0.60229135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.60883796" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4969743" weight="0.66775775" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5030257" side_tool="true" weight="0.66775775" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.32852808" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.17549168" />
+      <window_info anchor="right" id="Maven Projects" order="8" side_tool="true" weight="0.32852808" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833333" visible="true" weight="0.25567323" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" sideWeight="0.50166667" side_tool="true" weight="0.25872535" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Ant Build" order="8" sideWeight="0.50166667" side_tool="true" weight="0.3353566" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49544764" weight="0.60229135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.60883796" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4969743" weight="0.66775775" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5030257" side_tool="true" weight="0.66775775" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="SciView" order="6" weight="0.32852808" />
+      <window_info anchor="right" id="Database" order="7" weight="0.17549168" />
+      <window_info anchor="right" id="Maven Projects" order="8" side_tool="true" weight="0.32852808" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="Third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third commit" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/investments/bondsNsecurities/TreasuryBondsDisposal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/investments/bondsNsecurities/NewDebt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/investments/bondsNsecurities/IssuedDebtApproval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="48" selection-start-line="48" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/PostingPayable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/PostingPayableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/PaymentProcessingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/PaymentProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="91" column="74" selection-start-line="91" selection-start-column="74" selection-end-line="91" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/NewPayable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/NewPayableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/DirectPayments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/DirectPaymentsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsReceivable/DebtorsRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/base/JyperionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsReceivable/DebtorRegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/ProfilePermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/base/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/BatchSponsorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewScheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="70" selection-start-line="70" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/adae5fef-558b-4123-b7a4-76167e24c1d9/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/base/BaseClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/base/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/AddAllowedSchemes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3405#3406#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/ChangeUserPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1473">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/AdditionalSchemeDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="160" column="35" lean-forward="true" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#3147#3148#0" expanded="true" />
+            <element signature="e#3179#3180#0" expanded="true" />
+            <element signature="e#3260#3261#0" expanded="true" />
+            <element signature="e#3277#3278#0" expanded="true" />
+            <element signature="e#3389#3390#0" expanded="true" />
+            <element signature="e#3422#3423#0" expanded="true" />
+            <element signature="e#3512#3513#0" expanded="true" />
+            <element signature="e#3542#3543#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#3669#3670#0" expanded="true" />
+            <element signature="e#3750#3751#0" expanded="true" />
+            <element signature="e#3779#3780#0" expanded="true" />
+            <element signature="e#3865#3866#0" expanded="true" />
+            <element signature="e#3900#3901#0" expanded="true" />
+            <element signature="e#3992#3993#0" expanded="true" />
+            <element signature="e#4027#4028#0" expanded="true" />
+            <element signature="e#4101#4102#0" expanded="true" />
+            <element signature="e#4127#4128#0" expanded="true" />
+            <element signature="e#4219#4220#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="e#4387#4388#0" expanded="true" />
+            <element signature="e#4478#4479#0" expanded="true" />
+            <element signature="e#4543#4544#0" expanded="true" />
+            <element signature="e#4599#4600#0" expanded="true" />
+            <element signature="e#4616#4617#0" expanded="true" />
+            <element signature="e#4718#4719#0" expanded="true" />
+            <element signature="e#4761#4762#0" expanded="true" />
+            <element signature="e#4819#4820#0" expanded="true" />
+            <element signature="e#4850#4851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db056ed3-59d9-4016-8987-4c8389d271cf/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewSponsor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/SponsorApproval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewProfileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/ProfilePermissionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="69" column="60" selection-start-line="69" selection-start-column="60" selection-end-line="69" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/BatchContributions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="45" column="85" selection-start-line="45" selection-start-column="85" selection-end-line="45" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSponsorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/ChangeUserPasswordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/AddAllowedSchemesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSchemeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/SponsorApprovalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/AdditionalSchemeDetailsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberRegisterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1412">
+          <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configurations.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JKUat:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5574324" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5574324" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5574324" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5574324" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JKUat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5574324" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.lowagie:itext:2.1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5574324" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

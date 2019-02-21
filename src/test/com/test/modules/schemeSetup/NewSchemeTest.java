@@ -4,6 +4,7 @@ import com.JKUat.base.BaseClass;
 import com.JKUat.base.LoginPage;
 import com.JKUat.modules.schemeSetup.NewScheme;
 import com.test.base.LoginPageTest;
+import org.openqa.selenium.By;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
 import org.testng.annotations.BeforeClass;
@@ -11,7 +12,6 @@ import org.testng.annotations.Test;
 
 public class NewSchemeTest extends BaseClass {
 
-    public static String  num;
 
     @BeforeClass
     public void setUp() throws Exception {
@@ -30,31 +30,35 @@ public class NewSchemeTest extends BaseClass {
     @Test(priority = 1)
     public void createSceme() throws Exception{
         NewScheme ns = new NewScheme(driver);
-        ns.clickOnSchemeSetup();
-        Thread.sleep(7000);
-        ns.clickOnScheme();
+        ns.clickSchemeSetup();
+        Thread.sleep(3000);
+        ns.clickScheme();
         Thread.sleep(5000);
         ns.clickOnNewScheme();
         Thread.sleep(5000);
-        ns.enterSchemeName("JKUAT TESTING SCHEME1");
+        ns.enterSchemeName("JKUAT TESTING SCHEME2");
         Thread.sleep(5000);
         ns.enterSchemeType("Pension Fund");
         Thread.sleep(5000);
-        ns.enterFundType("Savings & Retirement Fund");
+        ns.enterFundType("Defined Contribution");
         Thread.sleep(5000);
-        ns.enterTakeOnDate("4/2/2018");
+        ns.enterFundAdministrator("JKUAT Pension");
         Thread.sleep(5000);
-        ns.clickOnStartDay();
+        ns.enterTakeOnDate("4/2/2014");
         Thread.sleep(5000);
-        ns.clickOnStartMonth();
-        Thread.sleep(5000);
+        ns.enterDateOfCommencement("01/28/2019");
+        Thread.sleep(3000);
+//        ns.clickOnStartDay();
+//        Thread.sleep(5000);
+//        ns.clickOnStartMonth();
+//        Thread.sleep(5000);
         ns.enterBaseCurrency("KENYA SHILLINGS");
         Thread.sleep(5000);
         ns.clickSaveButton();
         Thread.sleep(5000);
-        ns.clickOkBox();
-        Thread.sleep(5000);
-        driver.quit();
+//        ns.clickOkBox();
+//        Thread.sleep(5000);
+        //driver.quit();
         log.info("scheme ");
 
 

@@ -15,8 +15,15 @@ public class NewScheme extends BaseClass {
 
     public WebDriver driver;
 
-    @FindBy(xpath = "//*[@id=\"x-desktop\"]/center/table/tbody/tr[1]/td[1]/center/a")
-    WebElement schemeSetUp;
+//    @FindBy(xpath = "//*[@id=\"x-desktop\"]/center/table/tbody/tr[1]/td[1]/center/a")
+//    WebElement schemeSetUp;
+//
+
+//    @FindBy(xpath = "//*[@id=\"ext-gen77\"]")
+//    WebElement mainMenu;
+
+    @FindBy(xpath = "//*[@id=\"x-desktop\"]/center/table/tbody/tr[1]/td[1]")
+    WebElement schemeSetup;
 
     @FindBy(xpath = "//*[@id=\"ext-gen38\"]")
     WebElement scheme;
@@ -27,13 +34,16 @@ public class NewScheme extends BaseClass {
     @FindBy(name = "scheme.schemeDetails.schemeName")
     WebElement schemeName;
 
-    @FindBy(xpath = "//*[@id=\"ext-comp-1144\"]")
+    @FindBy(xpath = "//*[@id=\"ext-comp-1150\"]")
     WebElement SchemeType;
 
-    @FindBy(xpath = "//*[@id=\"ext-comp-1145\"]")
+    @FindBy(xpath = "//*[@id=\"ext-comp-1151\"]")
     WebElement FundType;
 
     @FindBy(xpath = "//*[@id=\"ext-comp-1152\"]")
+    WebElement fundAdministrator;
+
+    @FindBy(xpath = "//*[@id=\"ext-comp-1158\"]")
     WebElement BaseCurrency;
 
     @FindBy(name = "scheme.schemeDetails.takeOnDate")
@@ -45,7 +55,10 @@ public class NewScheme extends BaseClass {
     @FindBy(xpath = "//*[@id=\"ext-comp-1150\"]")
     WebElement startMonth;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen140\"]")
+    @FindBy(name = "scheme.schemeDetails.dateCommenced")
+    WebElement dateOfCommencement;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen146\"]")
     WebElement save;
 
     @FindBy(xpath = "//*[@id=\"ext-gen266\"]")
@@ -62,10 +75,21 @@ public class NewScheme extends BaseClass {
     }
 
     public void clickOnSchemeSetup(){
-        schemeSetUp.click();
+        schemeSetup.click();
     }
 
     public void clickOnScheme(){
+        scheme.click();
+    }
+//    public void clickOnMainMenu(){
+//        mainMenu.click();
+//    }
+
+    public void clickSchemeSetup(){
+        schemeSetup.click();
+    }
+
+    public void clickScheme(){
         scheme.click();
     }
 
@@ -75,28 +99,32 @@ public class NewScheme extends BaseClass {
 
     public void enterSchemeName(String name) {
 
-        schemeName.sendKeys(name, Keys.ENTER);
+        schemeName.sendKeys(name, Keys.TAB);
 
     }
 
 
     public void enterSchemeType(String type) {
 
-        SchemeType.sendKeys(type, Keys.ENTER);
+        SchemeType.sendKeys(type, Keys.TAB);
 
     }
 
 
     public void enterFundType(String fund) {
 
-        FundType.sendKeys(fund, Keys.ENTER);
+        FundType.sendKeys(fund, Keys.TAB);
 
+    }
+
+    public void enterFundAdministrator(String fundAdmin){
+        fundAdministrator.sendKeys(fundAdmin,Keys.TAB);
     }
 
 
     public void enterBaseCurrency(String curr) {
 
-        BaseCurrency.sendKeys(curr, Keys.ENTER);
+        BaseCurrency.sendKeys(curr, Keys.TAB);
 
     }
 
@@ -105,7 +133,7 @@ public class NewScheme extends BaseClass {
 
         TakeOnDate.clear();
         Thread.sleep(500);
-        TakeOnDate.sendKeys(Sdate, Keys.ENTER);
+        TakeOnDate.sendKeys(Sdate, Keys.TAB);
 
     }
 
@@ -115,6 +143,11 @@ public class NewScheme extends BaseClass {
 
     public void clickOnStartMonth(){
         startMonth.click();
+    }
+
+    public void enterDateOfCommencement(String dateOfComm){
+        dateOfCommencement.clear();
+        dateOfCommencement.sendKeys(dateOfComm,Keys.TAB);
     }
 
     public void clickSaveButton(){

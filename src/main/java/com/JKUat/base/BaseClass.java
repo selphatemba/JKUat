@@ -49,15 +49,15 @@ public abstract class BaseClass {
     public ITestResult result;
 
     //connection parameters for the browser
-    public  String webUrl="http://192.168.10.191:8080/Xi/";
-    public  String driverLocation="/home/selpha/IdeaProjects/BOU/src/main/java/com/BOU/drivers/chromedriver";
+    //public  String webUrl="http://192.168.10.191:8080/Xi/";
+    public  String driverLocation="F:\\documents\\IdeaProjects\\JKUat\\src\\main\\drivers\\chromedriver.exe";
     public static WebDriver driver;
 
     public static Logger log=Logger.getLogger(BaseClass.class.getName());
 
 
     public void configLogger(){
-        String log4jConfPath = "/home/selpha/IdeaProjects/BOU/src/main/resources/log4j.properties";
+        String log4jConfPath = "F:\\documents\\IdeaProjects\\JKUat\\src\\main\\resources\\log4j.properties";
         PropertyConfigurator.configure(log4jConfPath);
         // BasicConfigurator.configure();
     }
@@ -67,7 +67,7 @@ public abstract class BaseClass {
         configLogger();
         System.setProperty("webdriver.chrome.driver",driverLocation);
         driver=new ChromeDriver();
-        driver.get(webUrl);
+       // driver.get(webUrl);
         driver.manage().window().maximize();
         try {
             Thread.sleep(3000);
@@ -79,7 +79,7 @@ public abstract class BaseClass {
     //to connect to webdriver
     public static WebDriver getDriver(){
         if(driver==null){
-            System.setProperty("webdriver.chrome.driver","/home/selpha/IdeaProjects/JKUat/src/main/java/com/JKUat/drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver","F:\\documents\\IdeaProjects\\JKUat\\src\\main\\drivers\\chromedriver.exe");
             driver=new ChromeDriver();
         }
         return driver;
@@ -374,7 +374,7 @@ public abstract class BaseClass {
     public void init() throws Exception {
 
         loadData();
-        String log4jConfPath = "/home/selpha/IdeaProjects/JKUat/src/main/resources/log4j.properties";
+        String log4jConfPath = "F:\\documents\\IdeaProjects\\JKUat\\src\\main\\resources\\log4j.properties";
         PropertyConfigurator.configure(log4jConfPath);
         System.out.println(OR.getProperty("browser"));
         selectBrowser(OR.getProperty("browser"));
@@ -413,18 +413,19 @@ public abstract class BaseClass {
 
                 System.out.println(System.getProperty("user.dir"));
                 System.setProperty("webdriver.chrome.driver",
-                        System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-                ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--headless");
-                driver = new ChromeDriver(chromeOptions);
+                        System.getProperty("user.dir") + "\\src\\main\\drivers\\chromedriver.exe");
+//                ChromeOptions chromeOptions = new ChromeOptions();
+//                chromeOptions.addArguments("--headless");
+//                driver = new ChromeDriver(chromeOptions);
 //				driver.manage().window().maximize();
                 // driver = new EventFiringWebDriver(dr);
                 // eventListener = new WebEventListener();
                 // driver.register(eventListener);
+                driver=new ChromeDriver();
             } else if (browser.equals("firefox")) {
                 System.out.println(System.getProperty("user.dir"));
                 System.setProperty("webdriver.gecko.driver",
-                        System.getProperty("user.dir") + "/drivers/geckodriver.exe");
+                        System.getProperty("user.dir") + "src/main/drivers/chromedriver.exe");
                 driver = new FirefoxDriver();
                 // driver = new EventFiringWebDriver(dr);
 
@@ -434,7 +435,7 @@ public abstract class BaseClass {
         } else if (System.getProperty("os.name").contains("Mac")) {
             if (browser.equals("chrome")) {
                 System.out.println(System.getProperty("user.dir"));
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
                 driver = new ChromeDriver();
                 // driver = new EventFiringWebDriver(dr);
                 // eventListener = new WebEventListener();

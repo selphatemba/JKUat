@@ -25,7 +25,7 @@ public class BatchContributions extends BaseClass {
     WebElement costCentre;
     @FindBy(id = "monthCombo")
     WebElement month;
-    @FindBy(id = "ext-comp-2016")
+    @FindBy(xpath = "//*[@id=\"ext-comp-1737\"]")
     WebElement year;
 
 
@@ -52,18 +52,18 @@ public class BatchContributions extends BaseClass {
 
     public void enterSponsorname(String sName){
 
-        sponsor.sendKeys(sName, Keys.ENTER);
+        sponsor.sendKeys(sName, Keys.TAB);
     }
 
     public void enterCostCentre(String costcentre) {
-        costCentre.sendKeys(costcentre,Keys.ENTER);
+        costCentre.sendKeys(costcentre,Keys.TAB);
     }
 
     public void enterMonth(String mnth){
-        month.sendKeys(mnth,Keys.ENTER);
+        month.sendKeys(mnth,Keys.TAB);
     }
 
     public void enterYear(String yr){
-        year.sendKeys(yr,Keys.ENTER);
+        year.sendKeys(yr,Keys.TAB);
     }
 }
