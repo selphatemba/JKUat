@@ -24,7 +24,7 @@ public class MemberApproval extends BaseClass {
     private WebElement selectMember;
     @FindBy(xpath = "//*[@id=\"ext-gen172\"]")
     WebElement approve;
-    @FindBy(xpath = "//*[@id=\"ext-gen200\"]")
+    @FindBy(xpath = "//*[@id=\"ext-comp-1716\"]")
     WebElement selectedmember;
 
     public MemberApproval(WebDriver driver) {

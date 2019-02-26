@@ -36,7 +36,7 @@ public class NewSchemeTest extends BaseClass {
         Thread.sleep(5000);
         ns.clickOnNewScheme();
         Thread.sleep(5000);
-        ns.enterSchemeName("JKUAT TESTING SCHEME2");
+        ns.enterSchemeName("JKUAT TESTING SCHEME");
         Thread.sleep(5000);
         ns.enterSchemeType("Pension Fund");
         Thread.sleep(5000);
@@ -48,16 +48,13 @@ public class NewSchemeTest extends BaseClass {
         Thread.sleep(5000);
         ns.enterDateOfCommencement("01/28/2019");
         Thread.sleep(3000);
-//        ns.clickOnStartDay();
-//        Thread.sleep(5000);
-//        ns.clickOnStartMonth();
-//        Thread.sleep(5000);
         ns.enterBaseCurrency("KENYA SHILLINGS");
         Thread.sleep(5000);
         ns.clickSaveButton();
         Thread.sleep(5000);
-//        ns.clickOkBox();
-//        Thread.sleep(5000);
+        ns.clickOkBox();
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//*[@id=\"ext-gen148\"]")).click();
         //driver.quit();
         log.info("scheme ");
 

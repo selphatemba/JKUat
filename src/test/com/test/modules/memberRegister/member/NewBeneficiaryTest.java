@@ -3,6 +3,7 @@ package com.test.modules.memberRegister.member;
 import com.JKUat.base.BaseClass;
 import com.JKUat.base.LoginPage;
 import com.JKUat.modules.memberModule.members.NewBeneficiary;
+import com.JKUat.modules.schemeSetup.ChangeUserPassword;
 import com.test.base.JyperionListener;
 import com.test.base.LoginPageTest;
 import org.testng.annotations.BeforeClass;
@@ -20,19 +21,22 @@ public class NewBeneficiaryTest extends BaseClass {
     }
 
     @Test(priority = 0)
-    public void login() throws Exception {
-        log.info("=========logging in user ================");
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.login("admin", "admin");
-        log.info("=============successfully logged in===========");
+    public void switchScheme()throws Exception {
+        ChangeUserPassword asd = new ChangeUserPassword(driver);
+        Thread.sleep(3000);
+        asd.enterloginUsername("selly1");
+        Thread.sleep(3000);
+        asd.enterloginPasswd("S@lpha123");
+        Thread.sleep(3000);
+        asd.clickSaveLogin();
     }
 
     @Test(priority = 1)
     public void addNewBeneficiary() throws  Exception{
         log.info("===========Starting addNewBeneficiary===========");
         NewBeneficiary nb = new NewBeneficiary(driver);
-        Thread.sleep(7000);
-        nb.clickOnMemberRegister();
+//        Thread.sleep(7000);
+//        nb.clickOnMemberRegister();
         Thread.sleep(5000);
         nb.selectMemberOption();
         Thread.sleep(5000);
@@ -40,25 +44,25 @@ public class NewBeneficiaryTest extends BaseClass {
         Thread.sleep(3500);
         nb.enterCategory("Both");
         Thread.sleep(2500);
-        nb.enterMemberNumber("1000054");
+        nb.enterMemberNumber("Bad   Good - 00001");
         Thread.sleep(2500);
-        nb.enterSurname("Freddie");
+        nb.enterSurname("Key");
         Thread.sleep(2500);
-        nb.enterFirstName("Octane");
+        nb.enterFirstName("Seed");
         Thread.sleep(2500);
-        nb.enterOthernames("BigMan");
+        nb.enterOthernames("Already");
         Thread.sleep(2500);
-        nb.enterDOB("03/01/1944");
+        nb.enterDOB("03/01/2010");
         Thread.sleep(2500);
         nb.enterDocumentsProvided("Yes");
         Thread.sleep(2500);
-        nb.enterEntitlement("55");
+        nb.enterEntitlement("25");
         Thread.sleep(2500);
         nb.enterGender("Male");
         Thread.sleep(2500);
         nb.enterStatus("Eligible");
         Thread.sleep(2500);
-        nb.enterRelationship("Brother");
+        nb.enterRelationship("Daughter");
         Thread.sleep(2500);
         nb.clickSaveButton();
         Thread.sleep(4000);

@@ -27,10 +27,10 @@ public class NewBeneficiary extends BaseClass {
         @FindBy(linkText = "New Beneficiary")
         WebElement newBeneficiary;
 
-        @FindBy(css = "#ext-comp-1676")
+        @FindBy(xpath = "//*[@id=\"ext-comp-1688\"]")
         WebElement category;
 
-        @FindBy(id = "ext-comp-1677")
+        @FindBy(xpath = "//*[@id=\"ext-comp-1689\"]")
         WebElement memberToSearch;
 
         @FindBy(name = "ben.surname")
@@ -45,23 +45,23 @@ public class NewBeneficiary extends BaseClass {
         @FindBy(name = "ben.dob")
         WebElement DateOfBirth;
 
-        @FindBy(id = "ext-comp-1682")
+        @FindBy(xpath= "//*[@id=\"ext-comp-1694\"]")
         WebElement DocumentsProvided;
 
-        @FindBy(css = "#ext-comp-1685")
+        @FindBy(xpath = "//*[@id=\"ext-comp-1697\"]")
         WebElement Relationship;
 
         @FindBy(name = "ben.lumpsumEntitlement")
         WebElement Entitlement;
 
-        @FindBy(xpath = "//*[@id=\"ext-comp-1686\"]")
+        @FindBy(xpath = "//*[@id=\"ext-comp-1698\"]")
         WebElement Gender;
 
 
-        @FindBy(id ="ext-comp-1694")
+        @FindBy(xpath = "//*[@id=\"ext-comp-1706\"]")
         WebElement Status;
 
-        @FindBy(xpath = "//*[@id=\"ext-gen138\"]")
+        @FindBy(xpath = "//*[@id=\"ext-gen141\"]")
         WebElement saveButton;
 
 
@@ -97,7 +97,7 @@ public class NewBeneficiary extends BaseClass {
     }
 
     public void enterMemberNumber(String num) {
-            memberToSearch.sendKeys(num,Keys.ARROW_DOWN,Keys.ENTER);
+            memberToSearch.sendKeys(num,Keys.TAB);
 
 
 
@@ -117,7 +117,7 @@ public class NewBeneficiary extends BaseClass {
     }
 
     public void enterDocumentsProvided(String doc) {
-        DocumentsProvided.sendKeys(doc, Keys.ENTER);
+        DocumentsProvided.sendKeys(doc, Keys.TAB);
     }
 
     public void enterDOB(String dob)  {
@@ -126,21 +126,21 @@ public class NewBeneficiary extends BaseClass {
     }
 
     public void enterStatus(String status)  {
-        Status.sendKeys(status, Keys.ARROW_DOWN, Keys.ENTER);
+        Status.sendKeys(status, Keys.TAB);
 
     }
 
     public void enterGender(String gender){
-        Gender.sendKeys(gender, Keys.ENTER);
+        Gender.sendKeys(gender, Keys.TAB);
     }
 
     public void enterEntitlement(String lumpsum) {
-        Entitlement.sendKeys(lumpsum, Keys.ENTER);
+        Entitlement.sendKeys(lumpsum, Keys.TAB);
     }
 
     public void enterRelationship(String Rship) {
 
-        Relationship.sendKeys(Rship, Keys.ENTER);
+        Relationship.sendKeys(Rship, Keys.TAB);
 
     }
 

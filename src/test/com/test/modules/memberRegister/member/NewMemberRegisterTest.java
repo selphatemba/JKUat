@@ -16,29 +16,33 @@ public class NewMemberRegisterTest extends BaseClass {
     public static String number;
 
 
-    @BeforeClass
-    public void setUp() throws Exception {
-        init();
+//    @BeforeClass
+//    public void setUp() throws Exception {
+//        init();
+//
+//    }
+//
+//    @Test(priority = 0)
+//    public void login()throws Exception {
+//        ChangeUserPassword asd = new ChangeUserPassword(driver);
+//        Thread.sleep(3000);
+//        asd.enterloginUsername("selly1");
+//        Thread.sleep(3000);
+//        asd.enterloginPasswd("S@lpha123");
+//        Thread.sleep(3000);
+//        asd.clickSaveLogin();
+//        Thread.sleep(3000);
+//    }
 
-    }
 
     @Test(priority = 0)
-    public void switchScheme()throws Exception {
-        ChangeUserPassword asd = new ChangeUserPassword(driver);
-        Thread.sleep(3000);
-        asd.enterloginUsername("selly1");
-        Thread.sleep(3000);
-        asd.enterloginPasswd("S@lpha123");
-        Thread.sleep(3000);
-        asd.clickSaveLogin();
-        Thread.sleep(3000);
-    }
-
-
-    @Test(priority = 1)
     public void createANewMember()throws Exception {
         NewMember newMember =new NewMember(driver);
-        Thread.sleep(1500);
+//        Thread.sleep(1500);
+//        driver.findElement(By.id("membLnk")).click();
+//        Thread.sleep(1500);
+        driver.findElement(By.id("membLnk")).click();
+        Thread.sleep(3000);
         newMember.clickMemberButton();
         Thread.sleep(3000);
         newMember.clicNewkMemberOption();
@@ -64,7 +68,7 @@ public class NewMemberRegisterTest extends BaseClass {
         Thread.sleep(1500);
         newMember.enterDateOfJoiningScheme("02/11/2019");
         Thread.sleep(1500);
-        newMember.enterCostCenter("JKUAT TESTING SPONSOR2 Cost Centre");
+        newMember.enterCostCenter("JKUAT TESTING SPONSOR3 Cost Centre");
         Thread.sleep(1500);
         newMember.enterMemberClass("CLASS ONE");
         Thread.sleep(5000);
@@ -77,9 +81,7 @@ public class NewMemberRegisterTest extends BaseClass {
         newMember.clickSaveButton();
         Thread.sleep(5000);
         number=driver.findElement(By.name("member.memberNo")).getAttribute("value");
-
-       // driver.navigate().refresh();
-
+        driver.navigate().refresh();
         log.info("NewMember number==" +number+" ===has succesfully been added");
 
     }

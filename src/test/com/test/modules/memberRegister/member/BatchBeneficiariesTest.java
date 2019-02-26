@@ -13,25 +13,25 @@ import org.testng.annotations.Test;
 
 public class BatchBeneficiariesTest extends BaseClass {
 
-    @BeforeClass
-    public void setUp() throws Exception {
-         init();
-
-    }
-
+//    @BeforeClass
+//    public void setUp() throws Exception {
+//         init();
+//
+//    }
+//
+//
+//    @Test(priority = 0)
+//    public void switchScheme()throws Exception {
+//        ChangeUserPassword asd = new ChangeUserPassword(driver);
+//        Thread.sleep(3000);
+//        asd.enterloginUsername("selly1");
+//        Thread.sleep(3000);
+//        asd.enterloginPasswd("S@lpha123");
+//        Thread.sleep(3000);
+//        asd.clickSaveLogin();
+//    }
 
     @Test(priority = 0)
-    public void switchScheme()throws Exception {
-        ChangeUserPassword asd = new ChangeUserPassword(driver);
-        Thread.sleep(3000);
-        asd.enterloginUsername("selly1");
-        Thread.sleep(3000);
-        asd.enterloginPasswd("S@lpha123");
-        Thread.sleep(3000);
-        asd.clickSaveLogin();
-    }
-
-    @Test(priority = 1)
     public void doBatchBeneficiaries()throws  Exception{
         log.info("===========Started Updating Beneficiary===========");
         Thread.sleep(3000);
@@ -45,8 +45,9 @@ public class BatchBeneficiariesTest extends BaseClass {
         Thread.sleep(3000);
         driver.findElement(By.name("batchSchedule")).sendKeys("F:\\Xi templates\\ben1.xls");
         Thread.sleep(4500);
-        driver.findElement(By.xpath("//*[@id=\"ext-gen160\"]")).click();
-        Thread.sleep(2500);
+        driver.findElement(By.xpath("//*[@id=\"ext-gen352\"]")).click();
+        Thread.sleep(6000);
+        driver.navigate().refresh();
         log.info("===========Completed Updating Beneficiary===========");
         //driver.quit();
 

@@ -13,26 +13,26 @@ import org.testng.annotations.Test;
 public class BatchContributionsTest extends BaseClass {
 
 
-    @BeforeClass
-    public void setUp() throws Exception {
-        init();
+//    @BeforeClass
+//    public void setUp() throws Exception {
+//        init();
+//
+//    }
+//
+//    @Test(priority = 0)
+//    public void switchScheme()throws Exception {
+//        ChangeUserPassword asd = new ChangeUserPassword(driver);
+//        Thread.sleep(3000);
+//        asd.enterloginUsername("selly1");
+//        Thread.sleep(3000);
+//        asd.enterloginPasswd("S@lpha123");
+//        Thread.sleep(3000);
+//        asd.clickSaveLogin();
+//    }
 
-    }
+
 
     @Test(priority = 0)
-    public void switchScheme()throws Exception {
-        ChangeUserPassword asd = new ChangeUserPassword(driver);
-        Thread.sleep(3000);
-        asd.enterloginUsername("selly1");
-        Thread.sleep(3000);
-        asd.enterloginPasswd("S@lpha123");
-        Thread.sleep(3000);
-        asd.clickSaveLogin();
-    }
-
-
-
-    @Test(priority = 1)
     public void doBatchContributions()throws Exception{
         BatchContributions bc = new BatchContributions(driver);
         log.info("Starting Batch Contributions");
@@ -49,9 +49,9 @@ public class BatchContributionsTest extends BaseClass {
         Thread.sleep(3000);
         bc.enterBatchDate("03/06/2018");
         Thread.sleep(3000);
-        bc.enterSponsorname("JKUAT TESTING SPONSOR2");
+        bc.enterSponsorname("JKUAT TESTING SPONSOR3");
         Thread.sleep(3000);
-        bc.enterCostCentre("JKUAT TESTING SPONSOR2 Cost Centre");
+        bc.enterCostCentre("JKUAT TESTING SPONSOR3 Cost Centre");
         Thread.sleep(3000);
         bc.enterYear("2019");
         Thread.sleep(3000);
@@ -63,14 +63,16 @@ public class BatchContributionsTest extends BaseClass {
         Thread.sleep(5000);
         driver.findElement(By.name("batchSchedule")).sendKeys("F:\\Xi templates\\contribution_upload.xls");
         Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id=\"ext-gen352\"]")).click();
-        Thread.sleep(5000);
+        driver.findElement(By.xpath("//*[@id=\"ext-gen398\"]")).click();
+        Thread.sleep(7000);
         driver.findElement(By.xpath("//*[@id=\"ext-gen436\"]/div")).click();
         Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id=\"ext-gen446\"]")).click();
+        driver.findElement(By.xpath("//*[@id=\"ext-gen437\"]/div/table/tbody/tr/td[1]/div/div")).click();
         Thread.sleep(3000);
-        driver.findElement(By.id("ext-gen348")).click();
+        driver.findElement(By.xpath("//*[@id=\"saveBatch\"]/tbody/tr[2]/td[2]")).click();
+        Thread.sleep(3000);
         driver.navigate().refresh();
+//        driver.findElement(By.id("ext-gen348")).click();
          log.info("finished Batch Contributions");
 
     }

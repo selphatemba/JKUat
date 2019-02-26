@@ -4,6 +4,7 @@ import com.JKUat.base.BaseClass;
 import com.JKUat.base.LoginPage;
 import com.JKUat.modules.schemeSetup.ChangeUserPassword;
 import com.JKUat.modules.schemeSetup.NewSponsor;
+import org.openqa.selenium.By;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -15,7 +16,7 @@ public class NewSponsorTest extends BaseClass {
 
     }
     @Test(priority = 0)
-    public void switchScheme()throws Exception {
+    public void login()throws Exception {
         ChangeUserPassword asd = new ChangeUserPassword(driver);
         Thread.sleep(3000);
         asd.enterloginUsername("selly1");
@@ -42,7 +43,7 @@ public class NewSponsorTest extends BaseClass {
         Thread.sleep(3000);
         ns.clickNewSponsor();
         Thread.sleep(3000);
-        ns.enterName("JKUAT TESTING SPONSOR2");
+        ns.enterName("JKUAT TESTING SPONSOR3");
         Thread.sleep(3000);
         ns.enterApplicationDate("02/06/2019");
         Thread.sleep(3000);
@@ -53,6 +54,11 @@ public class NewSponsorTest extends BaseClass {
         ns.clickgenerateclu();
         Thread.sleep(3000);
         ns.clickSave();
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("//*[@id=\"ext-gen395\"]")).click();
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("//*[@id=\"ext-gen227\"]")).click();
+        Thread.sleep(3000);
         log.info("=====Completed creating a Sponsor=====");
     }
 }

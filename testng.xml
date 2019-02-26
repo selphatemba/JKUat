@@ -4,13 +4,22 @@
 <suite name="memberTestSuite">
     <test name="test1">
         <classes>
-            <class name="com.test.modules.memberRegister.member.NewMemberRegisterTest"/>
+            <class name="com.test.modules.schemeSetup.NewSchemeTest"/>
         </classes>
     </test>
-
     <test name="test2">
         <classes>
-            <class name="com.test.modules.memberRegister.member.NewMemberApprovalTest"/>
+            <class name="com.test.modules.administrativePanel.NewUserTest"/>
+        </classes>
+    </test>
+    <test name="test3">
+        <classes>
+            <class name="com.test.modules.administrativePanel.AddAllowedSchemesTest"/>
+        </classes>
+    </test>
+    <test name="test4">
+        <classes>
+            <class name="com.test.modules.schemeSetup.ChangeUserPasswordTest"/>
         </classes>
     </test>
 

@@ -61,7 +61,7 @@ public class NewScheme extends BaseClass {
     @FindBy(xpath = "//*[@id=\"ext-gen146\"]")
     WebElement save;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen266\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen271\"]")
     WebElement okBox;
 
 

@@ -34,16 +34,16 @@ public class SingleContribution extends BaseClass {
 	@FindBy(xpath = "//input[@name='contr.salary']")
     WebElement enterSalary;
 	
-	@FindBy(xpath = "//*[@id=\"ext-comp-2239\"]")
+	@FindBy(xpath = "//*[@id=\"ext-comp-2257\"]")
     WebElement EnterContrType;
 	
-	@FindBy(xpath = "//*[@id=\"ext-comp-2250\"]")
+	@FindBy(xpath = "//*[@id=\"ext-comp-2268\"]")
     WebElement EnterMonth;
 	
-	@FindBy(name = "contr.year")
+	@FindBy(xpath = "//*[@id=\"ext-comp-2269\"]")
     WebElement enterYear;
 
-	@FindBy(id = "ext-comp-2252")
+	@FindBy(xpath = "//*[@id=\"ext-comp-2270\"]")
     WebElement EnterSattus;
 
 //	@FindBy(xpath = "//*[@id=\"sponsorMNameField\"]")
@@ -62,7 +62,7 @@ public class SingleContribution extends BaseClass {
 
 	public void enterMemberNumber2(String num) {
 		String numStr = num.trim();
-        memberNumber2.sendKeys(numStr,Keys.ENTER);
+        memberNumber2.sendKeys(numStr,Keys.TAB);
 
 	}
 
@@ -79,18 +79,18 @@ public class SingleContribution extends BaseClass {
 	
 
 	public void eneterEEAmount(String EEAmount) {
-		eneterEE.sendKeys(EEAmount, Keys.ENTER);
+		eneterEE.sendKeys(EEAmount, Keys.TAB);
 
 
 	}
 	
 	public void eneterERAmount(String ERAmount) {
-		eneterER.sendKeys(ERAmount, Keys.ENTER);
+		eneterER.sendKeys(ERAmount, Keys.TAB);
 
 	}
 	
 	public void eneterSalary(String salary) {
-		enterSalary.sendKeys(salary, Keys.ENTER);
+		enterSalary.sendKeys(salary, Keys.TAB);
 
 	}
 	
@@ -98,7 +98,7 @@ public class SingleContribution extends BaseClass {
 	public void entercontrType(String contrType) {
 //		JavascriptExecutor jse = (JavascriptExecutor) driver;
 //		jse.executeScript("document.getElementsByName('contr.type')[0].setAttribute('type', 'text');");
-		  EnterContrType.sendKeys(contrType, Keys.ENTER);
+		  EnterContrType.sendKeys(contrType, Keys.TAB);
 
 	}
 	
@@ -106,13 +106,13 @@ public class SingleContribution extends BaseClass {
 	public void enterMonth(String month) {
 //		JavascriptExecutor jse = (JavascriptExecutor) driver;
 //		WebElement enterMonth = (WebElement) jse.executeScript("document.getElementsByName('contr.month')[0].setAttribute('type', 'text');");
-		EnterMonth.sendKeys(month, Keys.ARROW_DOWN,Keys.ENTER);
+		EnterMonth.sendKeys(month, Keys.TAB);
 
 	}
 	
 
 	public void enterYear(String year) {
-		enterYear.sendKeys(year, Keys.ENTER);
+		enterYear.sendKeys(year, Keys.TAB);
 
 	}
 	
@@ -120,7 +120,7 @@ public class SingleContribution extends BaseClass {
 	public void enterStatus(String status) {
 //		JavascriptExecutor jse = (JavascriptExecutor) driver;
 //		WebElement enterSattus = (WebElement) jse.executeScript("document.getElementsByName('contr.status')[0].setAttribute('type', 'text');");
-		EnterSattus.sendKeys(status, Keys.RETURN);
+		EnterSattus.sendKeys(status, Keys.TAB);
 	}
 
 //	public void setSposorName(String sposorname) {

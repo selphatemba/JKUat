@@ -2,92 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="146b78fa-4d59-4724-b699-62f420649daa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/DirectPayments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/PaymentProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/AddAllowedSchemes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/ProfilePermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/AdditionalSchemeDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/ChangeUserPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewSponsor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/SponsorApproval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/DirectPaymentsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/PaymentProcessingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/AddAllowedSchemesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewProfileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/ProfilePermissionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/AdditionalSchemeDetailsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/ChangeUserPasswordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSponsorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/SponsorApprovalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc2721bf-8e77-47f7-ad28-a03bd8c91973.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cc2721bf-8e77-47f7-ad28-a03bd8c91973.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/InitiateMovement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MovementProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/ContributionRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/InitiateMovementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MovementProcessingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/RunBalancesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/adae5fef-558b-4123-b7a4-76167e24c1d9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/adae5fef-558b-4123-b7a4-76167e24c1d9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C:/selenium/com.test.base.JyperionListener.png" beforeDir="false" afterPath="$PROJECT_DIR$/C:/selenium/com.test.base.JyperionListener.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JKUat.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JKUat.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/JKUat.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/base/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/drivers/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/drivers/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/drivers/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/drivers/geckodriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/AccountsReceivable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/ProcessPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/PostingPayable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsReceivable/DebtorsRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsReceivable/DebtorsRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/BatchContributions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/BatchContributions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/ContributionsReceivables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/ContributionsReceivables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/DirectContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/DirectContr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/PreviousBatchContributions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/PreviousBatchContributions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/BatchMovements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/BatchMovements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/DeathProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/DeathProcessing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/claimActivities/ClaimPayments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/claimActivities/ClaimPayments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/SingleContribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/SingleContribution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewBeneficiary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewBeneficiary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewMember.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/RunBalances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/RunBalances.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/ValidateBeneficiary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/ValidateBeneficiary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/reasonsForExit/EarlyRetirement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/reasonsForExit/EarlyRetirement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/reasonsForExit/IllHealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/reasonsForExit/IllHealth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewScheme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewScheme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configurations.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configurations.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/base/JyperionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/base/JyperionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/ProcessPaymentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/PostingPayableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsReceivable/DebtorRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsReceivable/DebtorRegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/SponsorApproval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/SponsorApproval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/AddAllowedSchemesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/AddAllowedSchemesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewUserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/ClaimPaymentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/ClaimPaymentsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/DeferedBenefits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/DeferedBenefits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/ShortFallInterestListingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/ShortFallInterestListingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/TrustFundsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/TrustFundsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/unvestedBenefits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/unvestedBenefits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/ContributionReceivablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/ContributionReceivablesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/DirectContributionsUpdateContrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/DirectContributionsUpdateContrTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/MissingContributions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/MissingContributions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/PreviousBatchContributionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/PreviousBatchContributionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/singleContribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/singleContribution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/BatchMovementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/BatchMovementsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/EarlyRetirementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/EarlyRetirementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/illHealthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/differentExits/illHealthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/financialPeriods/FinancialPeriodsRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/financialPeriods/FinancialPeriodsRegisterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchMembersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchMembersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesEndorsements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesEndorsements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesUpdateUsingNominalForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesUpdateUsingNominalForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesUpdateusingGeneratedCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BeneficiariesUpdateusingGeneratedCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/ClosingBalances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/ClosingBalances.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/HistoricalClaimsBenefits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/HistoricalClaimsBenefits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MemberUpdatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MemberUpdatesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MembersEndorsments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MembersEndorsments.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewBeneficiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewBeneficiaryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberRegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberRegisterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/ValidateBeneficiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/ValidateBeneficiaryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/RegisteredReserveBalancesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/RegisteredReserveBalancesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/RegisteredReserveTransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/RegisteredReserveTransactionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/UnregisteredReserveBalancesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund/UnregisteredReserveBalancesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/BatchSponsorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/BatchSponsorsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSchemeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSchemeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSponsorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSponsorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/SponsorApprovalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/SponsorApprovalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/JKUat/modules/memberModule/claimActivities/ClaimPayments.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JKUat/modules/memberModule/claimActivities/ClaimPayments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/JKUat/modules/memberModule/contributions/SingleContribution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JKUat/modules/memberModule/contributions/SingleContribution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/JKUat/modules/memberModule/members/MemberApproval.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JKUat/modules/memberModule/members/MemberApproval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/JKUat/modules/memberModule/members/NewBeneficiary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JKUat/modules/memberModule/members/NewBeneficiary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/JKUat/modules/memberModule/members/RunBalances.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JKUat/modules/memberModule/members/RunBalances.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/JKUat/modules/schemeSetup/NewScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JKUat/modules/schemeSetup/NewScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/JKUat/modules/schemeSetup/SponsorApproval.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/JKUat/modules/schemeSetup/SponsorApproval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/administrativePanel/AddAllowedSchemesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/administrativePanel/AddAllowedSchemesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/administrativePanel/NewUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/administrativePanel/NewUserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/claimActivities/ClaimPaymentsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/claimActivities/ClaimPaymentsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/contributions/BatchContributionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/contributions/BatchContributionsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/contributions/singleContribution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/contributions/singleContribution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/member/BatchBeneficiariesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/member/BatchBeneficiariesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/member/NewBeneficiaryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/member/NewBeneficiaryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/member/NewMemberApprovalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/member/NewMemberApprovalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/member/NewMemberRegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/memberRegister/member/NewMemberRegisterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/schemeSetup/NewSchemeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/schemeSetup/NewSchemeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/schemeSetup/NewSponsorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/schemeSetup/NewSponsorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/modules/schemeSetup/SponsorApprovalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/modules/schemeSetup/SponsorApprovalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/test1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,34 +72,75 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jkuat" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state relative-caret-position="254">
+              <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/configurations.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/SponsorApprovalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="390">
+              <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java">
+        <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberRegisterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+            <state relative-caret-position="559">
+              <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MovementProcessingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="65" column="72" lean-forward="true" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -164,6 +169,10 @@
       <find>JKUat</find>
       <find>F</find>
       <find>nu</find>
+      <find>St</find>
+      <find>InitiateM</find>
+      <find>testng.xml</find>
+      <find>refre</find>
     </findStrings>
     <replaceStrings>
       <replace>JKUat</replace>
@@ -176,37 +185,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/investments/deposits/NewCashCallDepositTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/investments/otherSetups/ForexRates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/investments/otherSetups/NewExchangeRate.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/investments/otherSetups/NewExchangeRateTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/CreditorsRegister.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/NewPayable.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/CreditorsRegisterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/NewPayableTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/ProcessPayment.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/ProcessPaymentTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/PaymentProcessingTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/PaymentProcessing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/DirectPayments.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/DirectPaymentsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsReceivable/DebtorsRegister.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsReceivable/DebtorRegisterTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewMemberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewMember.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewProfile.java" />
         <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewProfileTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/ProfilePermission.java" />
         <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/ProfilePermissionTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/AdditionalSchemeDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewScheme.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/base/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/main/resources/configurations.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/AddAllowedSchemes.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewUserTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/AddAllowedSchemesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/ChangePassword.java" />
         <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/ChangePasswordTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/PasswordChangeTest.java" />
@@ -214,19 +202,40 @@
         <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/ChangeUserPasswordTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/AdditionalSchemeDetails.java" />
         <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/AdditionalSchemeDetailsTest.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db056ed3-59d9-4016-8987-4c8389d271cf/console.sql" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSponsorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewSponsor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/SponsorApproval.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/SponsorApprovalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewMember.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/BatchContributions.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/ContributionRates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewBeneficiary.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewBeneficiaryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/SingleContribution.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/singleContribution.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db056ed3-59d9-4016-8987-4c8389d271cf/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/RunBalances.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/InitiateMovement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/InitiateMovement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MovementProcessing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/claimActivities/ClaimPayments.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/ClaimPaymentsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewScheme.java" />
         <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSchemeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberRegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewUserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/AddAllowedSchemesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSponsorTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/testng1.xml" />
+        <option value="$PROJECT_DIR$/testng2.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/db056ed3-59d9-4016-8987-4c8389d271cf/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/SponsorApproval.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberRegisterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/SponsorApprovalTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/RunBalancesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/InitiateMovementTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MovementProcessingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java" />
       </list>
     </option>
   </component>
@@ -299,35 +308,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="JKUat" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="administrativePanel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
@@ -338,17 +319,6 @@
               <item name="JKUat" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="memberModule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="memberModule" type="462c0819:PsiDirectoryNode" />
-              <item name="contributions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
@@ -370,13 +340,6 @@
               <item name="JKUat" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="schemeSetup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
@@ -416,6 +379,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="memberRegister" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="memberRegister" type="462c0819:PsiDirectoryNode" />
+              <item name="claimActivities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
@@ -446,19 +419,24 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="schemeSetup" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JKUat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JKUat" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="azure&#10;oracle" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550756636202" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551184954162" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -470,12 +448,11 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dirisha\Documents\IdeaProjects\JKUat\src\main" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\documents\IdeaProjects\JKUat" />
+      <recent name="$PROJECT_DIR$/src/test/com/test/base" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/XiTest/modules/memberModule/reasonsForExit" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/XiTest/modules/memberModule/member" />
-      <recent name="$PROJECT_DIR$/src/test/com/test/modules/memberRegister/reserveFund" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.XiTest.modules.memberModule.members" />
@@ -484,10 +461,12 @@
       <recent name="com.test.modules.memberRegister.member.financialPeriods" />
       <recent name="com.XiTest.modules.memberModule.claimActivities" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/com/test/base" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\documents\IdeaProjects\JKUat" />
+      <recent name="F:\documents\IdeaProjects\JKUat\target" />
+      <recent name="C:\Users\Dirisha\Documents\IdeaProjects\JKUat\src\main" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/XiTest/modules/memberModule/reasonsForExit" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -502,7 +481,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.NewMemberApprovalTest">
+  <component name="RunManager" selected="TestNG.F:/documents/IdeaProjects/JKUat/testng1.xml">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -590,16 +569,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewMemberApprovalTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JKUat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.modules.memberRegister.member.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.modules.memberRegister.member" />
-      <option name="MAIN_CLASS_NAME" value="com.test.modules.memberRegister.member.NewMemberApprovalTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng1.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -607,16 +580,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewMemberRegisterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="F:/documents/IdeaProjects/JKUat/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JKUat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.modules.memberRegister.member.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.modules.memberRegister.member" />
-      <option name="MAIN_CLASS_NAME" value="com.test.modules.memberRegister.member.NewMemberRegisterTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -624,7 +591,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewSponsorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="F:/documents/IdeaProjects/JKUat/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JKUat" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewSchemeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JKUat" />
       <extension name="coverage">
         <pattern>
@@ -633,24 +611,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test.modules.schemeSetup" />
-      <option name="MAIN_CLASS_NAME" value="com.test.modules.schemeSetup.NewSponsorTest" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SponsorApprovalTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JKUat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.modules.schemeSetup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.modules.schemeSetup" />
-      <option name="MAIN_CLASS_NAME" value="com.test.modules.schemeSetup.SponsorApprovalTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.modules.schemeSetup.NewSchemeTest" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -667,19 +628,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.NewSponsorTest" />
-      <item itemvalue="TestNG.SponsorApprovalTest" />
       <item itemvalue="TestNG.AdditionalSchemeDetailsTest" />
-      <item itemvalue="TestNG.NewMemberRegisterTest" />
-      <item itemvalue="TestNG.NewMemberApprovalTest" />
+      <item itemvalue="TestNG.F:/documents/IdeaProjects/JKUat/testng.xml" />
+      <item itemvalue="TestNG.NewSchemeTest" />
+      <item itemvalue="TestNG.F:/documents/IdeaProjects/JKUat/testng1.xml" />
+      <item itemvalue="TestNG.F:/documents/IdeaProjects/JKUat/testng2.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NewMemberApprovalTest" />
-        <item itemvalue="TestNG.NewMemberRegisterTest" />
-        <item itemvalue="TestNG.SponsorApprovalTest" />
+        <item itemvalue="TestNG.F:/documents/IdeaProjects/JKUat/testng1.xml" />
+        <item itemvalue="TestNG.F:/documents/IdeaProjects/JKUat/testng2.xml" />
+        <item itemvalue="TestNG.F:/documents/IdeaProjects/JKUat/testng.xml" />
+        <item itemvalue="TestNG.NewSchemeTest" />
         <item itemvalue="TestNG.AdditionalSchemeDetailsTest" />
-        <item itemvalue="TestNG.NewSponsorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -821,7 +782,8 @@
       <workItem from="1550554966715" duration="11033000" />
       <workItem from="1550722345695" duration="589000" />
       <workItem from="1550733530990" duration="700000" />
-      <workItem from="1550742488039" duration="3422000" />
+      <workItem from="1550742488039" duration="24626000" />
+      <workItem from="1551072288955" duration="54932000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1535449371203</created>
@@ -855,39 +817,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdditionalSchemeDetailsTest - 2019.02.19 at 10h 38m 37s.xml">
-      <configuration name="AdditionalSchemeDetailsTest" configurationId="TestNG" />
+    <history-entry file="F__documents_IdeaProjects_JKUat_testng1_xml - 2019.02.26 at 14h 19m 01s.xml">
+      <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SponsorApprovalTest - 2019.02.19 at 10h 51m 20s.xml">
-      <configuration name="SponsorApprovalTest" configurationId="TestNG" />
+    <history-entry file="F__documents_IdeaProjects_JKUat_testng1_xml - 2019.02.26 at 14h 24m 58s.xml">
+      <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewMemberRegisterTest - 2019.02.19 at 10h 53m 12s.xml">
-      <configuration name="NewMemberRegisterTest" configurationId="TestNG" />
+    <history-entry file="F__documents_IdeaProjects_JKUat_testng1_xml - 2019.02.26 at 14h 37m 25s.xml">
+      <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewMemberRegisterTest - 2019.02.19 at 10h 57m 42s.xml">
-      <configuration name="NewMemberRegisterTest" configurationId="TestNG" />
+    <history-entry file="F__documents_IdeaProjects_JKUat_testng1_xml - 2019.02.26 at 14h 45m 04s.xml">
+      <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewMemberRegisterTest - 2019.02.19 at 11h 02m 26s.xml">
-      <configuration name="NewMemberRegisterTest" configurationId="TestNG" />
+    <history-entry file="F__documents_IdeaProjects_JKUat_testng1_xml - 2019.02.26 at 14h 56m 08s.xml">
+      <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewMemberRegisterTest - 2019.02.19 at 11h 19m 56s.xml">
-      <configuration name="NewMemberRegisterTest" configurationId="TestNG" />
+    <history-entry file="F__documents_IdeaProjects_JKUat_testng1_xml - 2019.02.26 at 15h 08m 14s.xml">
+      <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewMemberRegisterTest - 2019.02.19 at 11h 21m 12s.xml">
-      <configuration name="NewMemberRegisterTest" configurationId="TestNG" />
+    <history-entry file="F__documents_IdeaProjects_JKUat_testng1_xml - 2019.02.26 at 15h 19m 03s.xml">
+      <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewMemberApprovalTest - 2019.02.19 at 11h 26m 37s.xml">
-      <configuration name="NewMemberApprovalTest" configurationId="TestNG" />
+    <history-entry file="F__documents_IdeaProjects_JKUat_testng1_xml - 2019.02.26 at 15h 24m 15s.xml">
+      <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewMemberApprovalTest - 2019.02.19 at 11h 28m 19s.xml">
-      <configuration name="NewMemberApprovalTest" configurationId="TestNG" />
+    <history-entry file="F__documents_IdeaProjects_JKUat_testng1_xml - 2019.02.26 at 15h 31m 54s.xml">
+      <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewMemberApprovalTest - 2019.02.19 at 11h 55m 32s.xml">
-      <configuration name="NewMemberApprovalTest" configurationId="TestNG" />
+    <history-entry file="F__documents_IdeaProjects_JKUat_testng1_xml - 2019.02.26 at 15h 39m 16s.xml">
+      <configuration name="F:/documents/IdeaProjects/JKUat/testng1.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="871678000" />
+    <option name="totallyTimeSpent" value="947814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -900,8 +862,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833333" visible="true" weight="0.2980333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833333" visible="true" weight="0.30257186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -911,7 +874,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Ant Build" order="8" sideWeight="0.50166667" side_tool="true" weight="0.3353566" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49544764" weight="0.60229135" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -924,7 +887,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5030257" side_tool="true" weight="0.66775775" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Console" order="14" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.60720134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -932,12 +895,12 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="SciView" order="6" weight="0.32852808" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.17549168" />
+      <window_info anchor="right" id="Database" order="7" weight="0.17549168" />
       <window_info anchor="right" id="Maven Projects" order="8" side_tool="true" weight="0.32852808" />
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833333" visible="true" weight="0.25567323" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833333" visible="true" weight="0.30257186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -947,7 +910,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Ant Build" order="8" sideWeight="0.50166667" side_tool="true" weight="0.3353566" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49544764" weight="0.60229135" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -960,6 +923,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5030257" side_tool="true" weight="0.66775775" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.60720134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -986,172 +950,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/investments/bondsNsecurities/TreasuryBondsDisposal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/investments/bondsNsecurities/NewDebt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/investments/bondsNsecurities/IssuedDebtApproval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="48" selection-start-line="48" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/PostingPayable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/PostingPayableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/PaymentProcessingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/PaymentProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="91" column="74" selection-start-line="91" selection-start-column="74" selection-end-line="91" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/NewPayable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/NewPayableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsPayable/DirectPayments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsPayable/DirectPaymentsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/accounts/accountsReceivable/DebtorsRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/base/JyperionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="263" selection-start-line="263" selection-end-line="263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/accounts/accountsReceivable/DebtorRegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/ProfilePermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/base/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/BatchSponsorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewScheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="70" selection-start-line="70" selection-end-line="78" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1186,28 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/AddAllowedSchemes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3405#3406#0" expanded="true" />
-            <element signature="e#3431#3432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/ChangeUserPassword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1473">
@@ -1215,59 +995,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/AdditionalSchemeDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="160" column="35" lean-forward="true" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
-            <element signature="e#3147#3148#0" expanded="true" />
-            <element signature="e#3179#3180#0" expanded="true" />
-            <element signature="e#3260#3261#0" expanded="true" />
-            <element signature="e#3277#3278#0" expanded="true" />
-            <element signature="e#3389#3390#0" expanded="true" />
-            <element signature="e#3422#3423#0" expanded="true" />
-            <element signature="e#3512#3513#0" expanded="true" />
-            <element signature="e#3542#3543#0" expanded="true" />
-            <element signature="e#3635#3636#0" expanded="true" />
-            <element signature="e#3669#3670#0" expanded="true" />
-            <element signature="e#3750#3751#0" expanded="true" />
-            <element signature="e#3779#3780#0" expanded="true" />
-            <element signature="e#3865#3866#0" expanded="true" />
-            <element signature="e#3900#3901#0" expanded="true" />
-            <element signature="e#3992#3993#0" expanded="true" />
-            <element signature="e#4027#4028#0" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4127#4128#0" expanded="true" />
-            <element signature="e#4219#4220#0" expanded="true" />
-            <element signature="e#4254#4255#0" expanded="true" />
-            <element signature="e#4348#4349#0" expanded="true" />
-            <element signature="e#4387#4388#0" expanded="true" />
-            <element signature="e#4478#4479#0" expanded="true" />
-            <element signature="e#4543#4544#0" expanded="true" />
-            <element signature="e#4599#4600#0" expanded="true" />
-            <element signature="e#4616#4617#0" expanded="true" />
-            <element signature="e#4718#4719#0" expanded="true" />
-            <element signature="e#4761#4762#0" expanded="true" />
-            <element signature="e#4819#4820#0" expanded="true" />
-            <element signature="e#4850#4851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db056ed3-59d9-4016-8987-4c8389d271cf/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -1283,16 +1010,6 @@
             <element signature="e#2147#2148#0" expanded="true" />
             <element signature="e#2366#2367#0" expanded="true" />
             <element signature="e#2410#2411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/SponsorApproval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1317,41 +1034,233 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configurations.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="69" column="60" selection-start-line="69" selection-start-column="60" selection-end-line="69" selection-end-column="60" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/BatchContributions.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/ContributionRates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="45" column="85" selection-start-line="45" selection-start-column="85" selection-end-line="45" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewUserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/ValidateBeneficiaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewBeneficiaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewBeneficiary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/SingleContribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/singleContribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/contributions/BatchContributions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1555">
+          <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db056ed3-59d9-4016-8987-4c8389d271cf/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/RunBalances.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MemberUpdatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/reasonsForExit/EarlyRetirement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/InitiateMovement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1827#1828#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1916#1917#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2442#2443#0" expanded="true" />
+            <element signature="e#2467#2468#0" expanded="true" />
+            <element signature="e#2547#2548#0" expanded="true" />
+            <element signature="e#2563#2564#0" expanded="true" />
+            <element signature="e#2657#2658#0" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+            <element signature="e#2855#2856#0" expanded="true" />
+            <element signature="e#2884#2885#0" expanded="true" />
+            <element signature="e#2942#2943#0" expanded="true" />
+            <element signature="e#2961#2962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MovementProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2221#2222#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2374#2375#0" expanded="true" />
+            <element signature="e#2417#2418#0" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2500#2501#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
+            <element signature="e#2617#2618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/claimActivities/ClaimPayments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+          <folding>
+            <element signature="e#2102#2103#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+            <element signature="e#2607#2608#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2726#2727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/claimActivities/ClaimPaymentsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/AdditionalSchemeDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1924">
+          <caret line="160" column="35" lean-forward="true" selection-start-line="160" selection-start-column="35" selection-end-line="160" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3837#3838#0" expanded="true" />
+            <element signature="e#3900#3901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/AdditionalSchemeDetailsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/NewScheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-339">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/AddAllowedSchemes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#3405#3406#0" expanded="true" />
+            <element signature="e#3431#3432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/administrativePanel/NewUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSchemeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSponsorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="-293">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1368,37 +1277,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/AddAllowedSchemesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/NewUserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="290">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/NewSchemeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/administrativePanel/AddAllowedSchemesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        <state relative-caret-position="-64">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/db056ed3-59d9-4016-8987-4c8389d271cf/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="31" column="46" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/schemeSetup/SponsorApproval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="36" column="46" lean-forward="true" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#2055#2056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/RunBalancesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="48" column="94" selection-start-line="48" selection-start-column="94" selection-end-line="48" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/InitiateMovementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/MovementProcessingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/contributions/BatchContributionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="65" column="72" lean-forward="true" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/BatchBeneficiariesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/SponsorApprovalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/schemeSetup/AdditionalSchemeDetailsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="390">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1407,39 +1400,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberRegisterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="68" column="45" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+        <state relative-caret-position="559">
+          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/NewMember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1412">
-          <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configurations.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/JKUat/modules/memberModule/members/MemberApproval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/test/modules/memberRegister/member/NewMemberApprovalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="254">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
         </state>
       </provider>
     </entry>

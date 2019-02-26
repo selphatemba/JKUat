@@ -12,6 +12,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ClaimPayments extends BaseClass {
+	@FindBy(xpath = "//*[@id=\"ext-gen57\"]")
+	WebElement claimAct;
 
 	@FindBy(linkText = "Claim Payments")
     WebElement ClaimPayments;
@@ -19,8 +21,17 @@ public class ClaimPayments extends BaseClass {
 	@FindBy(id = "memNoClaimPayment")
     WebElement memberNo;
 
-	@FindBy(linkText = "Process Payment")
+	@FindBy(xpath = "//*[@id=\"ext-gen147-gp-exitCategory-Withdrawal-bd\"]/div")
+	WebElement member;
+
+	@FindBy(xpath = "//*[@id=\"ext-gen178\"]")
     WebElement processpayment;
+
+	@FindBy(xpath = "//*[@id=\"ext-gen314\"]")
+	WebElement payment;
+
+	@FindBy(xpath = "//*[@id=\"ext-gen333\"]")
+	WebElement yes;
 
 	@FindBy(name = "ben.members")
     WebElement memberName;
@@ -78,6 +89,9 @@ public class ClaimPayments extends BaseClass {
 		// BaseClass testBase = new BaseClass();
 		PageFactory.initElements(driver, this);
 	}
+	public void clickClaimActivities(){
+		claimAct.click();
+	}
 
 	public void clickOnClaimPayments() {
 
@@ -90,11 +104,20 @@ public class ClaimPayments extends BaseClass {
 		memberNo.sendKeys(memNo, Keys.ENTER);
 
 	}
+	public void selectAmember(){
+		member.click();
+	}
 
 	public void clickOnProcessPayment() {
 
 		processpayment.click();
 
+	}
+	public void clickOnPayment(){
+		payment.click();
+	}
+	public void clickYes(){
+		yes.click();
 	}
 
 	@SuppressWarnings("resource")

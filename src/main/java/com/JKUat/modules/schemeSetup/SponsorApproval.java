@@ -31,10 +31,10 @@ public class SponsorApproval extends BaseClass {
     @FindBy(name = "sponsorNameFieldUA")
     WebElement sponsorName;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen146-gp-sector-Financial-bd\"]/div")
+    @FindBy(xpath = "//*[@id=\"ext-gen422-gp-sector-Financial-bd\"]/div[1]/table/tbody/tr/td[1]/div/div")
     WebElement selectsponsor;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen165\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen440\"]")
     WebElement approve;
 
     public SponsorApproval(WebDriver driver) {
