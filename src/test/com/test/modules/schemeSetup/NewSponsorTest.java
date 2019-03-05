@@ -10,54 +10,56 @@ import org.testng.annotations.Test;
 
 public class NewSponsorTest extends BaseClass {
 
-    @BeforeClass
-    public void setUp() throws Exception {
-        init();
-
-    }
+//    @BeforeClass
+//    public void setUp() throws Exception {
+//        init();
+//
+//    }
+//    @Test(priority = 0)
+//    public void login()throws Exception {
+//        ChangeUserPassword asd = new ChangeUserPassword(driver);
+//        Thread.sleep(2000);
+//        asd.enterloginUsername("user50");
+//        Thread.sleep(1000);
+//        asd.enterloginPasswd("S@lpha123");
+//        Thread.sleep(1000);
+//        asd.clickSaveLogin();
+//        Thread.sleep(1000);
+//    }
     @Test(priority = 0)
-    public void login()throws Exception {
-        ChangeUserPassword asd = new ChangeUserPassword(driver);
-        Thread.sleep(3000);
-        asd.enterloginUsername("selly1");
-        Thread.sleep(3000);
-        asd.enterloginPasswd("S@lpha123");
-        Thread.sleep(3000);
-        asd.clickSaveLogin();
-        Thread.sleep(3000);
-    }
-    @Test(priority = 1)
     public void createASponsor()throws Exception{
         log.info("=======Started Creating a Sponsor========");
         NewSponsor ns=new NewSponsor(driver);
-        Thread.sleep(3000);
-        ns.clickOnMainMenu();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
+//        ns.clickOnMainMenu();
+//        Thread.sleep(2000);
         ns.clickOnSchemeSetup();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         ns.clickOnScheme();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         ns.hoverOverSponsor();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         ns.clickSponsorList();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         ns.clickNewSponsor();
-        Thread.sleep(3000);
-        ns.enterName("JKUAT TESTING SPONSOR3");
-        Thread.sleep(3000);
-        ns.enterApplicationDate("02/06/2019");
-        Thread.sleep(3000);
+        Thread.sleep(2000);
+        ns.enterName("SCHEME SCHEMA SPONSOR11");
+        Thread.sleep(2000);
+        ns.enterApplicationDate("12/31/2014");
+        Thread.sleep(2000);
         ns.enterTaxNumber("P021111911N");
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         ns.enterSector("Financial");
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         ns.clickgenerateclu();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         ns.clickSave();
-        Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id=\"ext-gen395\"]")).click();
-        Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id=\"ext-gen227\"]")).click();
+        Thread.sleep(2000);
+//        driver.findElement(By.xpath("//*[@id=\"ext-gen395\"]")).click();
+//        Thread.sleep(2000);
+//        driver.findElement(By.xpath("//*[@id=\"ext-gen227\"]")).click();
+//        Thread.sleep(3000);
+        driver.navigate().refresh();
         Thread.sleep(3000);
         log.info("=====Completed creating a Sponsor=====");
     }

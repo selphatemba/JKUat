@@ -15,28 +15,26 @@ public class BatchBeneficiariesTest extends BaseClass {
 
 //    @BeforeClass
 //    public void setUp() throws Exception {
-//         init();
+//        init();
 //
 //    }
-//
-//
 //    @Test(priority = 0)
-//    public void switchScheme()throws Exception {
+//    public void login()throws Exception {
 //        ChangeUserPassword asd = new ChangeUserPassword(driver);
-//        Thread.sleep(3000);
-//        asd.enterloginUsername("selly1");
-//        Thread.sleep(3000);
+//        Thread.sleep(2000);
+//        asd.enterloginUsername("user50");
+//        Thread.sleep(1000);
 //        asd.enterloginPasswd("S@lpha123");
-//        Thread.sleep(3000);
+//        Thread.sleep(1000);
 //        asd.clickSaveLogin();
+//        Thread.sleep(3000);
 //    }
 
     @Test(priority = 0)
     public void doBatchBeneficiaries()throws  Exception{
         log.info("===========Started Updating Beneficiary===========");
-        Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id=\"ext-gen49\"]")).click();
-        Thread.sleep(3000);
+        driver.findElement(By.id("ext-gen49")).click();
+        Thread.sleep(1000);
         Actions action = new Actions(driver);
         WebElement we = driver.findElement(By.linkText("Import From Templates"));
         action.moveToElement(we).build().perform();
@@ -45,8 +43,10 @@ public class BatchBeneficiariesTest extends BaseClass {
         Thread.sleep(3000);
         driver.findElement(By.name("batchSchedule")).sendKeys("F:\\Xi templates\\ben1.xls");
         Thread.sleep(4500);
-        driver.findElement(By.xpath("//*[@id=\"ext-gen352\"]")).click();
+        driver.findElement(By.xpath("//*[@id=\"ext-gen160\"]")).click();
         Thread.sleep(6000);
+        driver.findElement(By.id("ext-gen169")).click();
+        Thread.sleep(3000);
         driver.navigate().refresh();
         log.info("===========Completed Updating Beneficiary===========");
         //driver.quit();

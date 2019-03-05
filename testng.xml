@@ -4,23 +4,58 @@
 <suite name="memberTestSuite">
     <test name="test1">
         <classes>
-            <class name="com.test.modules.schemeSetup.NewSchemeTest"/>
-        </classes>
-    </test>
-    <test name="test2">
-        <classes>
             <class name="com.test.modules.administrativePanel.NewUserTest"/>
         </classes>
     </test>
     <test name="test3">
         <classes>
-            <class name="com.test.modules.administrativePanel.AddAllowedSchemesTest"/>
+            <class name="com.test.modules.schemeSetup.ChangeUserPasswordTest"/>
         </classes>
     </test>
     <test name="test4">
         <classes>
-            <class name="com.test.modules.schemeSetup.ChangeUserPasswordTest"/>
+            <class name="com.test.modules.schemeSetup.NewSponsorTest"/>
         </classes>
     </test>
+    <test name="test5">
+        <classes>
+            <class name="com.test.modules.schemeSetup.SponsorApprovalTest"/>
+        </classes>
+    </test>
+    <test name="test6">
+        <classes>
+            <class name="com.test.modules.memberRegister.member.BatchMembersTest"/>
+        </classes>
+    </test>
+    <test name="test7">
+        <classes>
+            <class name="com.test.modules.memberRegister.member.NewMemberApprovalTest"/>
+        </classes>
+    </test>
+    <test name="test8">
+        <classes>
+            <class name="com.test.modules.memberRegister.member.BatchBeneficiariesTest"/>
+        </classes>
+    </test>
+    <!--<test name="test9">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.memberRegister.contributions.BatchContributionsTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="test10">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.memberRegister.member.RunBalancesTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="test11">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.memberRegister.member.InitiateMovementTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="test12">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.memberRegister.member.MovementProcessingTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 
 </suite>

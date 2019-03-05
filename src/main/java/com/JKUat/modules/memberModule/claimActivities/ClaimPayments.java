@@ -27,13 +27,13 @@ public class ClaimPayments extends BaseClass {
 	@FindBy(xpath = "//*[@id=\"ext-gen178\"]")
     WebElement processpayment;
 
-	@FindBy(xpath = "//*[@id=\"ext-gen314\"]")
+	@FindBy(xpath = "//*[@id=\"ext-comp-1758\"]")
 	WebElement payment;
 
 	@FindBy(xpath = "//*[@id=\"ext-gen333\"]")
 	WebElement yes;
 
-	@FindBy(name = "ben.members")
+	@FindBy(name = "ben.member")
     WebElement memberName;
 
 	@FindBy(xpath = "//*[@id=\"ext-gen146-gp-eJKUattCategory-Withdrawal-bd\"]/div[1]/table/tbody/tr/td[4]/div")
@@ -123,17 +123,17 @@ public class ClaimPayments extends BaseClass {
 	@SuppressWarnings("resource")
 	public void getPaymentDetails() throws Exception {
 
-		String idForTxtFile = tableRow.getText();
+		//String idForTxtFile = tableRow.getText();
 		new SimpleDateFormat("dd.MM.yyyy_HH.mm.ss").format(new Date());
 		// Create File In F: Driver.
-		String TestFile = "C:\\Payment Details\\" + idForTxtFile + "PaymentDetails " + ".txt";
+		String TestFile = "F:\\Payment Details\\" + "PaymentDetails " + ".txt";
 		File FC = new File(TestFile);// Created object of java File class.
 		FC.createNewFile();// Create file.
 
 		// Create Object of java FileWriter and BufferedWriter class.
 		FileWriter FW = new FileWriter(TestFile);
 		BufferedWriter BW = new BufferedWriter(FW);
-		BW.write("NewMember Name :" + tableRow.getText());
+		BW.write("NewMember Name :" + memberName.getText());
 		BW.newLine();// To write next string on new line.
 		BW.write("gross benefits are :" + grossBenefits.getAttribute("value"));
 		BW.newLine();
@@ -176,7 +176,7 @@ public class ClaimPayments extends BaseClass {
 
 		// Loop to read all lines one by one from file and print It.
 		while ((Content = BR.readLine()) != null) {
-//			System.out.println(Content);
+     	System.out.println(Content);
 
 		}
 

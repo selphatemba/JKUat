@@ -40,6 +40,45 @@ public class NewUser extends BaseClass {
     @FindBy(xpath = "//*[@id=\"ext-comp-1177\"]")
     WebElement isAdmin;
 
+    @FindBy(linkText = "Allowed Schemes")
+    WebElement allowedSchemes;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen333\"]")
+    WebElement addAllowedSchemes;
+
+    @FindBy(name = "schemeNameField")
+    WebElement schemeName;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen372-gp-none--bd\"]/div/table/tbody/tr/td[1]/div/div")
+    WebElement selectAScheme;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen393\"]")
+    WebElement add;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen170\"]")
+    WebElement allowedSponsors;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen433\"]/div[3]")
+    WebElement selectASponsor;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen252\"]")
+    WebElement sv;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen290\"]")
+    WebElement ok;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen331\"]")
+    WebElement closeWindow;
+
+    @FindBy(xpath = "//*[@id=\"ext-comp-1221\"]/tbody/tr[2]/td[2]")
+    WebElement ok1;
+
+    @FindBy(xpath = "//*[@id=\"ext-comp-1187\"]/tbody/tr[2]/td[2]")
+    WebElement close;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen78\"]")
+    WebElement logout;
+
     @FindBy(xpath = "//*[@id=\"ext-comp-1179\"]")
     WebElement defaultModule;
 
@@ -87,6 +126,54 @@ public class NewUser extends BaseClass {
 
     public void enterDefaultScheme(String defaultsch){
         defaultModule.sendKeys(defaultsch,Keys.TAB);
+    }
+
+    public void clickAllowedSchemes(){
+        allowedSchemes.click();
+    }
+
+    public void clickOnAddAllowedSchemes(){
+        addAllowedSchemes.click();
+    }
+
+    public void enterShemeName(String schName){
+        schemeName.sendKeys(schName,Keys.ENTER);
+    }
+
+    public void selectAAscheme(){
+        selectAScheme.click();
+    }
+
+    public void  clickOnAdd(){
+        add.click();
+    }
+
+    public void clickOkBox(){
+        ok.click();
+    }
+
+    public void clickcloseWindow(){
+        closeWindow.click();
+    }
+
+    public void clickok1(){
+        ok1.click();
+    }
+
+    public void clickClose(){
+        close.click();
+    }
+
+    public void clickLogout(){
+        logout.click();
+    }
+
+    public void clickOnAllowedSponsors(){
+        allowedSponsors.click();
+    }
+
+    public void selectsponsor(){
+        selectASponsor.click();
     }
 
     public void clickSave(){

@@ -25,7 +25,7 @@ public class BatchContributions extends BaseClass {
     WebElement costCentre;
     @FindBy(id = "monthCombo")
     WebElement month;
-    @FindBy(xpath = "//*[@id=\"ext-comp-1737\"]")
+    @FindBy(xpath = "//*[@id=\"ext-comp-2034\"]")
     WebElement year;
 
 

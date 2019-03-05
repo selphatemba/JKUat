@@ -29,25 +29,25 @@ public class MovementProcessing extends BaseClass {
     @FindBy(xpath = "//*[@id=\"ext-gen148\"]")
     WebElement viewMembers;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen200-gp-mclass-CLASS ONE-bd\"]/div")
+    @FindBy(xpath = "//*[@id=\"ext-gen202-gp-mclass-CLASS ONE-bd\"]/div/table/tbody/tr/td[1]/div/div")
     WebElement selectmbr;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen259\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen261\"]")
     WebElement movement;
 
     @FindBy(xpath = "//*[@id=\"ext-comp-1994\"]")
     WebElement movementProcessing;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen434-gp-exitCategory-Withdrawal-bd\"]/div")
+    @FindBy(xpath = "//*[@id=\"ext-gen438-gp-exitCategory-Withdrawal-bd\"]/div/table/tbody/tr/td[1]/div/div")
     WebElement selectMember;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen480\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen484\"]")
     WebElement benefitsCalculation;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen590\"]")
+    @FindBy(xpath = "//*[@id=\"ext-comp-2141\"]")
     WebElement showBenefitsCalc;
 
-    @FindBy(xpath ="//*[@id=\"ext-gen629\"]" )
+    @FindBy(xpath ="//*[@id=\"ext-gen635\"]")
     WebElement save;
 
     public MovementProcessing(WebDriver driver) {
@@ -62,7 +62,7 @@ public class MovementProcessing extends BaseClass {
         sponsorRegister.click();
     }
     public void enterSponsorName(String spons){
-        sponsorName.sendKeys(spons, Keys.TAB);
+        sponsorName.sendKeys(spons, Keys.ENTER);
     }
     public void selectASponsor(){
         selectsponsor.click();

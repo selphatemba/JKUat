@@ -53,7 +53,7 @@ public class InitiateMovement extends BaseClass {
     @FindBy(xpath = "//*[@id=\"ext-comp-2127\"]")
     WebElement reasonsForExit;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen442\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen444\"]")//*[@id="ext-gen444"]
     WebElement save;
 
 

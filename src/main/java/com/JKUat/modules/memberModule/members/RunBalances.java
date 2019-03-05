@@ -19,10 +19,10 @@ public class RunBalances extends BaseClass {
     @FindBy(linkText = "Individual Run")
     WebElement IndividualRun;
 
-    @FindBy(xpath = "//*[@id=\"ext-comp-1820\"]")
+    @FindBy(xpath = "//*[@id=\"ext-comp-1925\"]")
     WebElement InterestRateType;
 
-    @FindBy(xpath = "//*[@id=\"ext-comp-1825\"]")
+    @FindBy(xpath = "//*[@id=\"ext-comp-1932\"]")
     WebElement memberNumber;
 
     @FindBy(id = "fsYrReg")
@@ -54,7 +54,7 @@ public class RunBalances extends BaseClass {
 
     public void enterInterestRateType(String rate){
 
-        InterestRateType.sendKeys(rate, Keys.ENTER);
+        InterestRateType.sendKeys(rate, Keys.TAB);
     }
 
     public void enterMemberNumber(String num){

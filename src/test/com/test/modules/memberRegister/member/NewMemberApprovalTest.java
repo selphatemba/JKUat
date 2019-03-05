@@ -20,41 +20,32 @@ public class NewMemberApprovalTest extends BaseClass {
 //        init();
 //
 //    }
-//
 //    @Test(priority = 0)
-//    public void switchScheme()throws Exception {
+//    public void login()throws Exception {
 //        ChangeUserPassword asd = new ChangeUserPassword(driver);
-//        Thread.sleep(3000);
-//        asd.enterloginUsername("selly1");
-//        Thread.sleep(3000);
+//        Thread.sleep(2000);
+//        asd.enterloginUsername("user49");
+//        Thread.sleep(1000);
 //        asd.enterloginPasswd("S@lpha123");
-//        Thread.sleep(3000);
+//        Thread.sleep(1000);
 //        asd.clickSaveLogin();
-//        Thread.sleep(3000);
+//        Thread.sleep(1000);
 //    }
 
     @Test(priority = 0)
-    public void openNewMemberPage()throws Exception {
-        NewMember newMember =new NewMember(driver);
-        Thread.sleep(1500);
-//        newMember.clickMembeRegister();
-//        Thread.sleep(1400);
-        newMember.clickMemberButton();
-    }
-
-    @Test(priority = 1)
     public void approveMember() throws Exception{
         log.info("======started approving a member===========");
         MemberApproval memberApproval=new MemberApproval(driver);
-        driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+        driver.findElement(By.xpath("//*[@id=\"ext-comp-1333\"]/tbody/tr[2]/td[2]/em")).click();
+        Thread.sleep(1000);
         memberApproval.selectMemberApprovalOption();
         Thread.sleep(1500);
-        driver.findElement(By.name("trxntype")).sendKeys("CLASS ONE", Keys.TAB);
+        driver.findElement(By.name("trxntype")).sendKeys("", Keys.TAB);
         Thread.sleep(1500);
-        driver.findElement(By.name("spns")).sendKeys("JKUAT TESTING SPONSOR3",Keys.TAB);
+        driver.findElement(By.name("spns")).sendKeys("SCHEME SCHEMA SPONSOR11",Keys.TAB);
         Thread.sleep(1500);
-        memberApproval.searchMember("22");
-        Thread.sleep(1500);
+//        memberApproval.searchMember("48");
+//        Thread.sleep(1500);
         memberApproval.selectAmember();
         Thread.sleep(3000);
         memberApproval.clickApprove();

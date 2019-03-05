@@ -3,6 +3,8 @@ package com.test.modules.memberRegister.member;
 import com.JKUat.base.BaseClass;
 import com.JKUat.modules.memberModule.members.InitiateMovement;
 import com.JKUat.modules.schemeSetup.ChangeUserPassword;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -33,11 +35,13 @@ public class InitiateMovementTest extends BaseClass {
         Thread.sleep(3000);
         im.clickOnSponsorRegister();
         Thread.sleep(3000);
-        im.enterSponsorName("JKUAT TESTING SPONSOR3");
+        im.enterSponsorName("JKUAT TESTING SPONSOR21");
         Thread.sleep(3000);
         im.selectASponsor();
         Thread.sleep(3000);
         im.clickOnViewMembers();
+        Thread.sleep(3000);
+        driver.findElement(By.name("mMemberNo")).sendKeys("000048", Keys.ENTER);
         Thread.sleep(3000);
         im.selectAmember();
         Thread.sleep(3000);
@@ -56,6 +60,8 @@ public class InitiateMovementTest extends BaseClass {
         im.enterReasonsForExit("Resignation");
         Thread.sleep(3000);
         im.clicksave();
+        Thread.sleep(2000);
+        driver.navigate().refresh();
         log.info("completed iniating a movement");
 
     }

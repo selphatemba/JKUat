@@ -31,11 +31,29 @@ public class SponsorApproval extends BaseClass {
     @FindBy(name = "sponsorNameFieldUA")
     WebElement sponsorName;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen422-gp-sector-Financial-bd\"]/div[1]/table/tbody/tr/td[1]/div/div")
+    @FindBy(xpath = "//*[@id=\"ext-gen146-gp-sector-Financial-bd\"]/div/table/tbody/tr/td[1]/div/div")
     WebElement selectsponsor;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen440\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen165\"]")
     WebElement approve;
+
+    @FindBy(xpath = "//*[@id=\"ext-comp-1038\"]")
+    WebElement memberClasses;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen153\"]")
+    WebElement newMemberClass;
+
+    @FindBy(name = "mc.name")
+    WebElement name;
+
+    @FindBy(name = "mc.code")
+    WebElement code;
+
+    @FindBy(xpath = "//*[@id=\"ext-comp-1180\"]")
+    WebElement sponsor;
+
+    @FindBy(xpath = "//*[@id=\"ext-gen212\"]")
+    WebElement save;
 
     public SponsorApproval(WebDriver driver) {
         this.driver = driver;
@@ -70,5 +88,24 @@ public class SponsorApproval extends BaseClass {
 
     public void clickApprove(){
         approve.click();
+    }
+
+    public void clickMemberClasses(){
+        memberClasses.click();
+    }
+    public void clickNewMemberClass(){
+        newMemberClass.click();
+    }
+    public void enterName(String nm){
+        name.sendKeys(nm,Keys.TAB);
+    }
+    public void enterCode(String cod){
+        code.sendKeys(cod,Keys.TAB);
+    }
+    public void enterSponsor(String sponsr){
+        sponsor.sendKeys(sponsr,Keys.TAB);
+    }
+    public void clickSave(){
+        save.click();
     }
 }

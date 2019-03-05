@@ -18,7 +18,7 @@ public class AdditionalSchemeDetailsTest extends BaseClass {
     public void switchScheme()throws Exception {
         ChangeUserPassword asd = new ChangeUserPassword(driver);
         Thread.sleep(3000);
-        asd.enterloginUsername("selly1");
+        asd.enterloginUsername("selly31");
         Thread.sleep(3000);
         asd.enterloginPasswd("S@lpha123");
         Thread.sleep(3000);
