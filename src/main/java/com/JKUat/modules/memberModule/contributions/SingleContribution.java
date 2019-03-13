@@ -25,7 +25,7 @@ public class SingleContribution extends BaseClass {
 	@FindBy(xpath = "//input[@name='contr.ee']")
     WebElement eneterEE;
 
-	@FindBy(id = "mMemberNo")
+	@FindBy(name = "mMemberNo")
     WebElement memberNumber2;
 	
 	@FindBy(xpath = "//input[@name='contr.er']")
@@ -40,14 +40,14 @@ public class SingleContribution extends BaseClass {
 	@FindBy(xpath = "//*[@id=\"ext-comp-2268\"]")
     WebElement EnterMonth;
 	
-	@FindBy(xpath = "//*[@id=\"ext-comp-2269\"]")
+	@FindBy(name = "contr.year")
     WebElement enterYear;
 
 	@FindBy(xpath = "//*[@id=\"ext-comp-2270\"]")
     WebElement EnterSattus;
 
-//	@FindBy(xpath = "//*[@id=\"sponsorMNameField\"]")
-//    WebElement sposorName;
+	@FindBy(xpath = "//*[@id=\"sponsorMNameField\"]")
+    WebElement sposorName;
 
 
 	
@@ -62,7 +62,7 @@ public class SingleContribution extends BaseClass {
 
 	public void enterMemberNumber2(String num) {
 		String numStr = num.trim();
-        memberNumber2.sendKeys(numStr,Keys.TAB);
+        memberNumber2.sendKeys(numStr,Keys.ENTER);
 
 	}
 
@@ -123,9 +123,9 @@ public class SingleContribution extends BaseClass {
 		EnterSattus.sendKeys(status, Keys.TAB);
 	}
 
-//	public void setSposorName(String sposorname) {
-//		sposorName.sendKeys(sposorname);
-//	}
+	public void setSposorName(String sposorname) {
+		sposorName.sendKeys(sposorname,Keys.ENTER);
+	}
 }
 
 

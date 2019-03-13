@@ -29,13 +29,13 @@ public class InitiateMovement extends BaseClass {
     @FindBy(xpath = "//*[@id=\"ext-gen148\"]")
     WebElement viewMembers;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen200-gp-mclass-CLASS ONE-bd\"]/div")
+    @FindBy(xpath = "//*[@id=\"ext-gen202-gp-mclass-Teaching Staff-bd\"]/div/table/tbody/tr/td[1]/div/div")
     WebElement selectmbr;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen259\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen261\"]")
     WebElement movement;
 
-    @FindBy(xpath = "//*[@id=\"ext-comp-1990\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen403\"]")
     WebElement initiateMovement;
 
     @FindBy(name = "ben.dateOfExit")
@@ -53,7 +53,7 @@ public class InitiateMovement extends BaseClass {
     @FindBy(xpath = "//*[@id=\"ext-comp-2127\"]")
     WebElement reasonsForExit;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen444\"]")//*[@id="ext-gen444"]
+    @FindBy(xpath = "//*[@id=\"ext-gen446\"]")
     WebElement save;
 
 
@@ -69,7 +69,7 @@ public class InitiateMovement extends BaseClass {
         sponsorRegister.click();
     }
     public void enterSponsorName(String spons){
-        sponsorName.sendKeys(spons, Keys.TAB);
+        sponsorName.sendKeys(spons, Keys.ENTER);
     }
     public void selectASponsor(){
         selectsponsor.click();

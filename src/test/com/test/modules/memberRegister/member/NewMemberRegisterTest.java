@@ -25,9 +25,9 @@ public class NewMemberRegisterTest extends BaseClass {
     public void login()throws Exception {
         ChangeUserPassword asd = new ChangeUserPassword(driver);
         Thread.sleep(2000);
-        asd.enterloginUsername("admin");
+        asd.enterloginUsername("user60");
         Thread.sleep(1000);
-        asd.enterloginPasswd("admin");
+        asd.enterloginPasswd("S@lpha123");
         Thread.sleep(1000);
         asd.clickSaveLogin();
         Thread.sleep(1000);
@@ -36,9 +36,9 @@ public class NewMemberRegisterTest extends BaseClass {
     @Test(priority = 1)
     public void createANewMember()throws Exception {
                 NewMember newMember = new NewMember(driver);
-                Thread.sleep(1500);
-                driver.findElement(By.id("membLnk")).click();
-                for(int i=0;i<=3;i++) {
+//                Thread.sleep(1500);
+//                driver.findElement(By.id("membLnk")).click();
+              //  for(int i=0;i<=3;i++) {
                 Thread.sleep(1500);
                 newMember.clickMemberButton();
                 Thread.sleep(3000);
@@ -47,15 +47,15 @@ public class NewMemberRegisterTest extends BaseClass {
                 Thread.sleep(3000);
                 newMember.enterTitle("Mr.");
                 Thread.sleep(1500);
-                newMember.enterSurname("Good");
+                newMember.enterSurname("Schemy");
                 Thread.sleep(1500);
-                newMember.enterFirstName("Bad");
+                newMember.enterFirstName("Burety");
                 Thread.sleep(1500);
                 newMember.enterGender("Male");
                 Thread.sleep(1500);
                 newMember.enterMaritalStatus("Married");
                 Thread.sleep(1500);
-                newMember.enterDOB("07/01/1950");
+                newMember.enterDOB("02/13/2059");
                 Thread.sleep(1500);
                 newMember.enterIDType("National ID");
                 Thread.sleep(1500);
@@ -65,7 +65,7 @@ public class NewMemberRegisterTest extends BaseClass {
                 Thread.sleep(1500);
                 newMember.enterDateOfJoiningScheme("01/01/2015");
                 Thread.sleep(1500);
-                newMember.enterCostCenter("JKUAT SRBS Cost Centre");
+                newMember.enterCostCenter("SCHEME SCHEMA SPONSOR11 Cost Centre");
                 Thread.sleep(1500);
                 newMember.enterMemberClass("Teaching Staff");
                 Thread.sleep(5000);
@@ -81,8 +81,8 @@ public class NewMemberRegisterTest extends BaseClass {
                 Thread.sleep(1000);
                 number = driver.findElement(By.name("member.memberNo")).getAttribute("value");
                 log.info("NewMember number==" + number + " ===has succesfully been added");
-                driver.navigate().refresh();
-                }
+                //driver.navigate().refresh();
+            //    }
             }
         }
 

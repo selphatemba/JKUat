@@ -74,7 +74,6 @@ public class ClaimPaymentsTest extends BaseClass {
 //        Thread.sleep(7000);
 //        cp.clickYes();
 //        Thread.sleep(3000);
-        cp.getPaymentDetails();
         Thread.sleep(3000);
 
     }

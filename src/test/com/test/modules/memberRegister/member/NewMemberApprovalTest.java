@@ -15,24 +15,24 @@ import java.util.concurrent.TimeUnit;
 //@Listeners({RetryTestListener.class})
 public class NewMemberApprovalTest extends BaseClass {
 
-//    @BeforeClass
-//    public void setUp() throws Exception {
-//        init();
-//
-//    }
-//    @Test(priority = 0)
-//    public void login()throws Exception {
-//        ChangeUserPassword asd = new ChangeUserPassword(driver);
-//        Thread.sleep(2000);
-//        asd.enterloginUsername("user49");
-//        Thread.sleep(1000);
-//        asd.enterloginPasswd("S@lpha123");
-//        Thread.sleep(1000);
-//        asd.clickSaveLogin();
-//        Thread.sleep(1000);
-//    }
+    @BeforeClass
+    public void setUp() throws Exception {
+        init();
 
+    }
     @Test(priority = 0)
+    public void login()throws Exception {
+        ChangeUserPassword asd = new ChangeUserPassword(driver);
+        Thread.sleep(2000);
+        asd.enterloginUsername("user60");
+        Thread.sleep(1000);
+        asd.enterloginPasswd("S@lpha123");
+        Thread.sleep(1000);
+        asd.clickSaveLogin();
+        Thread.sleep(1000);
+    }
+
+    @Test(priority = 1)
     public void approveMember() throws Exception{
         log.info("======started approving a member===========");
         MemberApproval memberApproval=new MemberApproval(driver);
@@ -40,9 +40,7 @@ public class NewMemberApprovalTest extends BaseClass {
         Thread.sleep(1000);
         memberApproval.selectMemberApprovalOption();
         Thread.sleep(1500);
-        driver.findElement(By.name("trxntype")).sendKeys("", Keys.TAB);
-        Thread.sleep(1500);
-        driver.findElement(By.name("spns")).sendKeys("SCHEME SCHEMA SPONSOR11",Keys.TAB);
+        driver.findElement(By.name("mMemberNo2")).sendKeys("13182",Keys.ENTER);
         Thread.sleep(1500);
 //        memberApproval.searchMember("48");
 //        Thread.sleep(1500);
@@ -52,7 +50,7 @@ public class NewMemberApprovalTest extends BaseClass {
         Thread.sleep(1500);
         memberApproval.clickSelectedMember();
         Thread.sleep(1500);
-        driver.navigate().refresh();
+       // driver.navigate().refresh();
         log.info("======member successfully approved ===========");
     }
 }

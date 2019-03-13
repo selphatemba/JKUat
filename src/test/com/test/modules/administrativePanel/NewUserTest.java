@@ -36,11 +36,11 @@ public class NewUserTest extends BaseClass {
         Thread.sleep(3000);
         nu.clickNewUser();
         Thread.sleep(3000);
-        nu.enterSurname("Father");
+        nu.enterSurname("Doe");
         Thread.sleep(1000);
-        nu.enterOtherNames("Abraham");
+        nu.enterOtherNames("John");
         Thread.sleep(1000);
-        nu.enterUserName("user61");
+        nu.enterUserName("user65");
         Thread.sleep(1000);
         nu.enterProfile("System Administrators");
         Thread.sleep(1000);
@@ -56,7 +56,7 @@ public class NewUserTest extends BaseClass {
         Thread.sleep(2000);
         nu.clickOnAddAllowedSchemes();
         Thread.sleep(2000);
-        nu.enterShemeName("SCHEME SCHEMA");
+        nu.enterShemeName("SCHEME SCHEMA2");
         Thread.sleep(1000);
         nu.selectAAscheme();
         Thread.sleep(1000);

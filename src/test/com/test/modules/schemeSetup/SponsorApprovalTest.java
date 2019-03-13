@@ -12,23 +12,23 @@ import org.testng.annotations.Test;
 public class SponsorApprovalTest extends BaseClass {
 
 
-//    @BeforeClass
-//    public void setUp() throws Exception {
-//        init();
-//
-//    }
-//    @Test(priority = 0)
-//    public void switchScheme()throws Exception {
-//        ChangeUserPassword asd = new ChangeUserPassword(driver);
-//        Thread.sleep(2000);
-//        asd.enterloginUsername("user50");
-//        Thread.sleep(1000);
-//        asd.enterloginPasswd("S@lpha123");
-//        Thread.sleep(1000);
-//        asd.clickSaveLogin();
-//        Thread.sleep(1000);
-//    }
+    @BeforeClass
+    public void setUp() throws Exception {
+        init();
+
+    }
     @Test(priority = 0)
+    public void switchScheme()throws Exception {
+        ChangeUserPassword asd = new ChangeUserPassword(driver);
+        Thread.sleep(2000);
+        asd.enterloginUsername("user63");
+        Thread.sleep(1000);
+        asd.enterloginPasswd("S@lpha123");
+        Thread.sleep(1000);
+        asd.clickSaveLogin();
+        Thread.sleep(1000);
+     }
+    @Test(priority = 1)
     public void approveASponsor()throws Exception {
         log.info("=======Started Creating a Sponsor========");
         SponsorApproval sa = new SponsorApproval(driver);
@@ -43,7 +43,7 @@ public class SponsorApprovalTest extends BaseClass {
         Thread.sleep(1000);
         sa.clickSponsorApproval();
         Thread.sleep(1000);
-        sa.enterSponsorName("SCHEME SCHEMA SPONSOR11");
+        sa.enterSponsorName("SCHEME SCHEMA2 Sponsor");
         Thread.sleep(1000);
         sa.selectASponsor();
         Thread.sleep(1000);
@@ -70,23 +70,17 @@ public class SponsorApprovalTest extends BaseClass {
         Thread.sleep(1000);
         sa.clickNewMemberClass();
         Thread.sleep(1000);
-        sa.enterName("Teaching Staff");
+        sa.enterName("Management");
         Thread.sleep(1000);
         sa.enterCode("0001");
         Thread.sleep(1000);
-        sa.enterSponsor("SCHEME SCHEMA SPONSOR11");
+        sa.enterSponsor("SCHEME SCHEMA2 Sponsor");
         Thread.sleep(1000);
         sa.clickSave();
         Thread.sleep(5000);
         driver.navigate().refresh();
-        Thread.sleep(1000);
-        //main Menu
-        driver.findElement(By.id("ext-gen62")).click();
-        Thread.sleep(3000);
-        //member Register
-        driver.findElement(By.id("membLnk")).click();
-        Thread.sleep(1000);
-
+        Thread.sleep(2000);
+        driver.quit();
     }
 
 

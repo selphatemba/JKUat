@@ -15,13 +15,6 @@ public class NewScheme extends BaseClass {
 
     public WebDriver driver;
 
-//    @FindBy(xpath = "//*[@id=\"x-desktop\"]/center/table/tbody/tr[1]/td[1]/center/a")
-//    WebElement schemeSetUp;
-//
-
-//    @FindBy(xpath = "//*[@id=\"ext-gen77\"]")
-//    WebElement mainMenu;
-
     @FindBy(xpath = "//*[@id=\"x-desktop\"]/center/table/tbody/tr[1]/td[1]")
     WebElement schemeSetup;
 

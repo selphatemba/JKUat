@@ -43,7 +43,7 @@ public class NewSponsorTest extends BaseClass {
         Thread.sleep(2000);
         ns.clickNewSponsor();
         Thread.sleep(2000);
-        ns.enterName("SCHEME SCHEMA SPONSOR11");
+        ns.enterName("SCHEME SCHEMA SPONSOR12");
         Thread.sleep(2000);
         ns.enterApplicationDate("12/31/2014");
         Thread.sleep(2000);

@@ -54,12 +54,12 @@ public class RunBalances extends BaseClass {
 
     public void enterInterestRateType(String rate){
 
-        InterestRateType.sendKeys(rate, Keys.TAB);
+        InterestRateType.sendKeys(rate, Keys.ENTER);
     }
 
     public void enterMemberNumber(String num){
 
-        memberNumber.sendKeys(num, Keys.RETURN);
+        memberNumber.sendKeys(num, Keys.ENTER);
 
     }
 

@@ -89,7 +89,8 @@ public class NewMember extends BaseClass {
     }
 
     public void enterDOB(String dob) {
-        dateOfBirth.sendKeys(dob);
+        dateOfBirth.clear();
+        dateOfBirth.sendKeys(dob,Keys.TAB);
     }
 
     public void enterIDType(String idt){
@@ -130,7 +131,6 @@ public class NewMember extends BaseClass {
     }
 
     public void enterDateOfAppointment(String doa){
-        dateOfAppointment.clear();
         dateOfAppointment.sendKeys(doa,Keys.TAB);
     }
 }
