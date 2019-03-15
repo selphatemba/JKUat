@@ -31,11 +31,14 @@ public class SwitchSchemeTest extends BaseClass {
         Thread.sleep(2000);
         sc.clickOnswitchScheme();
         Thread.sleep(2000);
-        sc.enterSchemeName("TESTING SCHEME");
+        sc.enterSchemeName("CAMPUS16 SCHEME");
         Thread.sleep(2000);
         sc.selectAscheme();
         Thread.sleep(2000);
         sc.clickOnSetAsWorkingScheme();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
+        sc.clickYes();
+        Thread.sleep(2000);
+        driver.quit();
     }
 }

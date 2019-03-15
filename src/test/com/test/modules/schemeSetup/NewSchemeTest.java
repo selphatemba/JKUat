@@ -36,7 +36,7 @@ public class NewSchemeTest extends BaseClass {
         Thread.sleep(2000);
         ns.clickOnNewScheme();
         Thread.sleep(2000);
-        ns.enterSchemeName("TESTING SCHEME");
+        ns.enterSchemeName("CAMPUS16 SCHEME");
         Thread.sleep(1000);
         ns.enterSchemeType("Pension Fund");
         Thread.sleep(1000);
@@ -56,7 +56,7 @@ public class NewSchemeTest extends BaseClass {
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"ext-gen148\"]")).click();
         Thread.sleep(3000);
-        driver.navigate().refresh();
+        driver.quit();
         log.info("scheme ");
 
 

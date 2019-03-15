@@ -19,7 +19,7 @@ public class AdditionalSchemeDetails2Test extends BaseClass {
 //    public void login() throws Exception {
 //        log.info("=========logging in user ================");
 //        LoginPage loginPage = new LoginPage(driver);
-//        loginPage.login("user63", "S@lpha123");
+//        loginPage.login("admin", "admin");
 //        log.info("=============successfully logged in===========");
 //
 //    }

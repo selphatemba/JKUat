@@ -33,16 +33,16 @@ public class AddAllowedSchemes extends BaseClass {
     @FindBy(linkText = "Allowed Schemes")
     WebElement allowedSchemes;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen326\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen328\"]")
     WebElement addAlowedSchemes;
 
     @FindBy(name = "schemeNameField")
     WebElement schemeName;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen366-gp-none--bd\"]/div/table/tbody/tr/td[1]/div/div")
+    @FindBy(xpath = "//*[@id=\"ext-gen368-gp-none--bd\"]/div/table/tbody/tr/td[1]/div/div")
     WebElement selectScheme;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen387\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen389\"]")
     WebElement add;
 
     public AddAllowedSchemes(WebDriver driver) {

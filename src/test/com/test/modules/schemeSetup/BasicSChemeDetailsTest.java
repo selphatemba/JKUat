@@ -20,7 +20,7 @@ public class BasicSChemeDetailsTest extends BaseClass {
     public void login() throws Exception {
         log.info("=========logging in user ================");
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.login("user64", "S@lpha123");
+        loginPage.login("admin", "admin");
         log.info("=============successfully logged in===========");
 
     }
@@ -28,8 +28,8 @@ public class BasicSChemeDetailsTest extends BaseClass {
     public void updateadditionalSchemeDetails()throws Exception {
         BasicSchemeDetails bsd = new BasicSchemeDetails(driver);
         Thread.sleep(3000);
-        bsd.clickMainMenu();
-        Thread.sleep(3000);
+//        bsd.clickMainMenu();
+//        Thread.sleep(3000);
         bsd.clickSchemeSetup();
         Thread.sleep(2000);
         bsd.clickOnScheme();

@@ -9,63 +9,68 @@
     </test>
     <test name="test2">
         <classes>
-            <class name="com.test.modules.administrativePanel.NewUserTest"/>
+            <class name="com.test.modules.administrativePanel.AddAllowedSchemesTest"/>
         </classes>
     </test>
     <test name="test3">
         <classes>
-            <class name="com.test.modules.schemeSetup.ChangeUserPasswordTest"/>
+            <class name="com.test.modules.schemeSetup.SwitchSchemeTest"/>
         </classes>
     </test>
     <test name="test4">
         <classes>
-            <class name="com.test.modules.schemeSetup.SponsorApprovalTest"/>
+            <class name="com.test.modules.schemeSetup.BasicSChemeDetailsTest"/>
         </classes>
     </test>
     <test name="test5">
         <classes>
-            <class name="com.test.modules.administrativePanel.SchemePreferencesTest"/>
+            <class name="com.test.modules.schemeSetup.AdditionalSchemeDetailsTest"/>
         </classes>
     </test>
     <test name="test6">
         <classes>
-            <class name="com.test.modules.schemeSetup.BasicSChemeDetailsTest"/>
-        </classes>
-    </test>
-    <test name="test7">
-        <classes>
-            <class name="com.test.modules.schemeSetup.AdditionalSchemeDetailsTest"/>
-        </classes>
-    </test>
-    <test name="test8">
-        <classes>
             <class name="com.test.modules.schemeSetup.AdditionalSchemeDetails2Test"/>
         </classes>
     </test>
-    <test name="test9">
-        <classes>
-            <class name="com.test.modules.schemeSetup.AnnuityRatesTest"/>
-        </classes>
-    </test>
-    <test name="test10">
-        <classes>
-            <class name="com.test.modules.schemeSetup.InterestRateTest"/>
-        </classes>
-    </test>
-    <test name="test11">
-        <classes>
-            <class name="com.test.modules.schemeSetup.DatesAndInsuranceCoverTest"/>
-        </classes>
-    </test>
-    <test name="test12">
-        <classes>
-            <class name="com.test.modules.schemeSetup.EndYearParametersTest"/>
-        </classes>
-    </test>
-    <test name="test13">
-        <classes>
-            <class name="com.test.modules.schemeSetup.ContributionsRateTest"/>
-        </classes>
-    </test>
+    <!--<test name="test6">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.schemeSetup.BasicSChemeDetailsTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="test7">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.schemeSetup.AdditionalSchemeDetailsTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="test8">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.schemeSetup.AdditionalSchemeDetails2Test"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="test9">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.schemeSetup.AnnuityRatesTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="test10">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.schemeSetup.InterestRateTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="test11">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.schemeSetup.DatesAndInsuranceCoverTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="test12">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.schemeSetup.EndYearParametersTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="test13">-->
+        <!--<classes>-->
+            <!--<class name="com.test.modules.schemeSetup.ContributionsRateTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 
 </suite>

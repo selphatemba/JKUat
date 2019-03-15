@@ -30,7 +30,7 @@ public class AddAllowedSchemesTest extends BaseClass {
         as.clickOnExistingUsers();
         Thread.sleep(1000);
         as.enterUserName("admin");
-        Thread.sleep(1000);
+        Thread.sleep(3000);
         as.selectUser();
         Thread.sleep(1000);
         as.clickOnDetails();
@@ -39,12 +39,12 @@ public class AddAllowedSchemesTest extends BaseClass {
         Thread.sleep(1000);
         as.clickOnAddAllowedSchemes();
         Thread.sleep(1000);
-        as.enterSchemeName("SCHEME SCHEMA1");
-        Thread.sleep(1000);
+        as.enterSchemeName("CAMPUS16 SCHEME");
+        Thread.sleep(2000);
         as.selectAscheme();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         as.clickAdd();
-        Thread.sleep(1000);
-        driver.navigate().refresh();
+        Thread.sleep(4000);
+        //driver.quit();
     }
 }

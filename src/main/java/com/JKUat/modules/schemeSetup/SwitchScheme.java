@@ -32,6 +32,9 @@ public class SwitchScheme extends BaseClass {
     @FindBy(xpath = "//*[@id=\"ext-gen104\"]")
     WebElement setAsWorkingScheme;
 
+    @FindBy(xpath = "//*[@id=\"ext-gen157\"]")
+    WebElement yes;
+
 
     public SwitchScheme(WebDriver driver) {
         this.driver = driver;
@@ -51,5 +54,7 @@ public class SwitchScheme extends BaseClass {
     public void selectAscheme(){selectScheme.click();}
 
     public void clickOnSetAsWorkingScheme(){setAsWorkingScheme.click();}
+
+    public void  clickYes(){yes.click();}
 
 }
