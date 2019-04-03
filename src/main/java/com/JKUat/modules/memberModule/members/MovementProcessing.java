@@ -23,13 +23,13 @@ public class MovementProcessing extends BaseClass {
     @FindBy(name = "sponsorMNameField")
     WebElement sponsorName;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen129-gp-sector-Financial-bd\"]/div")
+    @FindBy(xpath = "//*[@id=\"ext-gen129-gp-sector-Educational-bd\"]/div/table/tbody/tr/td[1]/div/div")
     WebElement selectsponsor;
 
     @FindBy(xpath = "//*[@id=\"ext-gen148\"]")
     WebElement viewMembers;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen202-gp-mclass-CLASS ONE-bd\"]/div/table/tbody/tr/td[1]/div/div")
+    @FindBy(xpath = "//*[@id=\"ext-gen202-gp-mclass-Management-bd\"]/div/table/tbody/tr/td[1]/div/div")
     WebElement selectmbr;
 
     @FindBy(xpath = "//*[@id=\"ext-gen261\"]")
@@ -38,7 +38,7 @@ public class MovementProcessing extends BaseClass {
     @FindBy(xpath = "//*[@id=\"ext-comp-1994\"]")
     WebElement movementProcessing;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen438-gp-exitCategory-Withdrawal-bd\"]/div/table/tbody/tr/td[1]/div/div")
+    @FindBy(xpath = "//*[@id=\"ext-gen438-gp-exitCategory-Death In Service-bd\"]/div/table/tbody/tr/td[1]/div/div")
     WebElement selectMember;
 
     @FindBy(xpath = "//*[@id=\"ext-gen484\"]")

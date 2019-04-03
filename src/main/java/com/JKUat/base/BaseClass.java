@@ -1,6 +1,8 @@
 package com.JKUat.base;
+
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.JavascriptExecutor;
@@ -8,17 +10,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Properties;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -34,9 +25,17 @@ import javax.activation.DataSource;
 import javax.activation.FileDataSource;
 import javax.mail.*;
 import javax.mail.internet.*;
-
-import java.net.URL;
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
+import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 
@@ -50,14 +49,14 @@ public abstract class BaseClass {
 
     //connection parameters for the browser
     //public  String webUrl="http://192.168.10.191:8080/Xi/";
-    public  String driverLocation="F:\\documents\\IdeaProjects\\JKUat\\src\\main\\drivers\\chromedriver.exe";
+    public  String driverLocation="/home/mfuon/IdeaProjects/jkuat1/drivers/chromedriver";
     public static WebDriver driver;
 
     public static Logger log=Logger.getLogger(BaseClass.class.getName());
 
 
     public void configLogger(){
-        String log4jConfPath = "F:\\documents\\IdeaProjects\\JKUat\\src\\main\\resources\\log4j.properties";
+        String log4jConfPath = "log4j.properties";
         PropertyConfigurator.configure(log4jConfPath);
         // BasicConfigurator.configure();
     }
@@ -79,7 +78,7 @@ public abstract class BaseClass {
     //to connect to webdriver
     public static WebDriver getDriver(){
         if(driver==null){
-            System.setProperty("webdriver.chrome.driver","F:\\documents\\IdeaProjects\\JKUat\\src\\main\\drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","src/main/drivers/chromedriver");
             driver=new ChromeDriver();
         }
         return driver;
@@ -374,7 +373,7 @@ public abstract class BaseClass {
     public void init() throws Exception {
 
         loadData();
-        String log4jConfPath = "F:\\documents\\IdeaProjects\\JKUat\\src\\main\\resources\\log4j.properties";
+        String log4jConfPath = "/home/mfuon/IdeaProjects/jkuat1/src/main/resources/log4j.properties";
         PropertyConfigurator.configure(log4jConfPath);
         System.out.println(OR.getProperty("browser"));
         selectBrowser(OR.getProperty("browser"));
@@ -413,7 +412,7 @@ public abstract class BaseClass {
 
                 System.out.println(System.getProperty("user.dir"));
                 System.setProperty("webdriver.chrome.driver",
-                        System.getProperty("user.dir") + "\\src\\main\\drivers\\chromedriver.exe");
+                        System.getProperty("user.dir") + "drivers/chromedriver");
 //                ChromeOptions chromeOptions = new ChromeOptions();
 //                chromeOptions.addArguments("--headless");
 //                driver = new ChromeDriver(chromeOptions);
@@ -425,7 +424,7 @@ public abstract class BaseClass {
             } else if (browser.equals("firefox")) {
                 System.out.println(System.getProperty("user.dir"));
                 System.setProperty("webdriver.gecko.driver",
-                        System.getProperty("user.dir") + "src/main/drivers/chromedriver.exe");
+                        System.getProperty("user.dir") + "src/main/drivers/chromedriver");
                 driver = new FirefoxDriver();
                 // driver = new EventFiringWebDriver(dr);
 
@@ -435,7 +434,7 @@ public abstract class BaseClass {
         } else if (System.getProperty("os.name").contains("Mac")) {
             if (browser.equals("chrome")) {
                 System.out.println(System.getProperty("user.dir"));
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "src/main/drivers/chromedriver");
                 driver = new ChromeDriver();
                 // driver = new EventFiringWebDriver(dr);
                 // eventListener = new WebEventListener();
@@ -460,6 +459,12 @@ public abstract class BaseClass {
         driver.manage().window().maximize();
 
         // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
+
+    public void pressEnter()throws  Exception{
+        Robot r=new Robot();
+        r.keyPress(KeyEvent.VK_ENTER);
+        r.keyRelease(KeyEvent.VK_ENTER);
     }
 
 

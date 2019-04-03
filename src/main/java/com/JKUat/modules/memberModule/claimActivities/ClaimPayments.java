@@ -21,7 +21,7 @@ public class ClaimPayments extends BaseClass {
 	@FindBy(id = "memNoClaimPayment")
     WebElement memberNo;
 
-	@FindBy(xpath = "//*[@id=\"ext-gen147-gp-exitCategory-Withdrawal-bd\"]/div")
+	@FindBy(xpath = "//*[@id=\"ext-gen147-gp-exitCategory-Death In Service-bd\"]/div")
 	WebElement member;
 
 	@FindBy(xpath = "//*[@id=\"ext-gen178\"]")
@@ -126,7 +126,7 @@ public class ClaimPayments extends BaseClass {
 		//String idForTxtFile = tableRow.getText();
 		new SimpleDateFormat("dd.MM.yyyy_HH.mm.ss").format(new Date());
 		// Create File In F: Driver.
-		String TestFile = "F:\\Payment Details\\" + "PaymentDetails " + ".txt";
+		String TestFile = "/home/mfuon/memberStatement" + "PaymentDetails " + ".txt";
 		File FC = new File(TestFile);// Created object of java File class.
 		FC.createNewFile();// Create file.
 

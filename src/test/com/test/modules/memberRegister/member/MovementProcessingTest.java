@@ -10,39 +10,41 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class MovementProcessingTest extends BaseClass {
-//    @BeforeClass
-//    public void setUp() throws Exception {
-//        init();
-//
-//    }
-//
-//
-//    @Test(priority = 0)
-//    public void login()throws Exception {
-//        ChangeUserPassword asd = new ChangeUserPassword(driver);
-//        Thread.sleep(3000);
-//        asd.enterloginUsername("selly1");
-//        Thread.sleep(3000);
-//        asd.enterloginPasswd("S@lpha123");
-//        Thread.sleep(3000);
-//        asd.clickSaveLogin();
-//    }
+    @BeforeClass
+    public void setUp() throws Exception {
+        init();
+
+    }
+
+
     @Test(priority = 0)
+    public void login()throws Exception {
+        ChangeUserPassword asd = new ChangeUserPassword(driver);
+        Thread.sleep(3000);
+        asd.enterloginUsername("admin");
+        Thread.sleep(3000);
+        asd.enterloginPasswd("admin");
+        Thread.sleep(3000);
+        asd.clickSaveLogin();
+    }
+    @Test(priority = 1)
     public void startMovementProcessing()throws Exception{
         log.info("Started movement processing");
         MovementProcessing mp=new MovementProcessing(driver);
+        Thread.sleep(2000);
+        driver.findElement(By.id("membLnk")).click();
         Thread.sleep(3000);
         mp.clickOnMembers();
         Thread.sleep(3000);
         mp.clickOnSponsorRegister();
         Thread.sleep(3000);
-        mp.enterSponsorName("JKUAT TESTING SPONSOR21");
+        mp.enterSponsorName("JKUAT SRBS");
         Thread.sleep(3000);
         mp.selectASponsor();
         Thread.sleep(3000);
         mp.clickOnViewMembers();
         Thread.sleep(3000);
-        driver.findElement(By.name("mMemberNo")).sendKeys("00048", Keys.ENTER);
+        driver.findElement(By.name("mMemberNo")).sendKeys("1000022", Keys.ENTER);
         Thread.sleep(3000);
         mp.selectAmember();
         Thread.sleep(3000);
@@ -50,7 +52,7 @@ public class MovementProcessingTest extends BaseClass {
         Thread.sleep(3000);
         mp.clickOnMovementProcessing();
         Thread.sleep(3000);
-        driver.findElement(By.name("mMemberNo2")).sendKeys("00048",Keys.ENTER);
+        driver.findElement(By.name("mMemberNo2")).sendKeys("1000022",Keys.ENTER);
         Thread.sleep(3000);
         mp.selectAReadyMember();
         Thread.sleep(3000);
@@ -64,7 +66,7 @@ public class MovementProcessingTest extends BaseClass {
         log.info("Completed movement processing");
 
     }
-    @Test(priority = 1)
+    @Test(priority = 2)
     public void startClaimPayments()throws Exception{
         ClaimPayments cp=new ClaimPayments(driver);
         Thread.sleep(4000);
@@ -72,7 +74,7 @@ public class MovementProcessingTest extends BaseClass {
         Thread.sleep(4000);
         cp.clickOnClaimPayments();
         Thread.sleep(3000);
-        cp.enterMemberNo("00048");
+        cp.enterMemberNo("1000022");
         Thread.sleep(3000);
         cp.selectAmember();
         Thread.sleep(3000);
@@ -109,5 +111,6 @@ public class MovementProcessingTest extends BaseClass {
         cp.getPaymentDetails();
         Thread.sleep(3000);
 
+        driver.quit();
     }
 }

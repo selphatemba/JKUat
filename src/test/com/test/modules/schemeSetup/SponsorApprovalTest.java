@@ -1,49 +1,47 @@
 package com.test.modules.schemeSetup;
 
 import com.JKUat.base.BaseClass;
-import com.JKUat.base.LoginPage;
 import com.JKUat.modules.schemeSetup.ChangeUserPassword;
 import com.JKUat.modules.schemeSetup.SponsorApproval;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class SponsorApprovalTest extends BaseClass {
 
 
-//    @BeforeClass
-//    public void setUp() throws Exception {
-//        init();
-//
-//    }
-//    @Test(priority = 0)
-//    public void switchScheme()throws Exception {
-//        ChangeUserPassword asd = new ChangeUserPassword(driver);
-//        Thread.sleep(2000);
-//        asd.enterloginUsername("user50");
-//        Thread.sleep(1000);
-//        asd.enterloginPasswd("S@lpha123");
-//        Thread.sleep(1000);
-//        asd.clickSaveLogin();
-//        Thread.sleep(1000);
-//    }
+    @BeforeClass
+    public void setUp() throws Exception {
+        init();
+
+    }
     @Test(priority = 0)
+    public void switchScheme()throws Exception {
+        ChangeUserPassword asd = new ChangeUserPassword(driver);
+        Thread.sleep(2000);
+        asd.enterloginUsername("admin");
+        Thread.sleep(1000);
+        asd.enterloginPasswd("admin");
+        Thread.sleep(1000);
+        asd.clickSaveLogin();
+        Thread.sleep(1000);
+    }
+    @Test(priority = 1)
     public void approveASponsor()throws Exception {
         log.info("=======Started Creating a Sponsor========");
         SponsorApproval sa = new SponsorApproval(driver);
         Thread.sleep(2000);
 //        sa.clickOnMainMenu();
 //        Thread.sleep(1000);
-//        sa.clickOnSchemeSetup();
-//        Thread.sleep(1000);
+        sa.clickOnSchemeSetup();
+        Thread.sleep(1000);
         sa.clickOnScheme();
         Thread.sleep(1000);
         sa.hoverOverSponsor();
         Thread.sleep(1000);
         sa.clickSponsorApproval();
         Thread.sleep(1000);
-        sa.enterSponsorName("SCHEME SCHEMA SPONSOR11");
+        sa.enterSponsorName("JKUAT TESTING");
         Thread.sleep(1000);
         sa.selectASponsor();
         Thread.sleep(1000);
@@ -54,7 +52,7 @@ public class SponsorApprovalTest extends BaseClass {
     }
 
 
-    @Test(priority = 1)
+    @Test(priority = 2)
     public void createUserClass()throws Exception {
         log.info("=======Started Creating a User ========");
         SponsorApproval sa = new SponsorApproval(driver);
@@ -70,15 +68,16 @@ public class SponsorApprovalTest extends BaseClass {
         Thread.sleep(1000);
         sa.clickNewMemberClass();
         Thread.sleep(1000);
-        sa.enterName("Teaching Staff");
+        sa.enterName("Management");
         Thread.sleep(1000);
         sa.enterCode("0001");
         Thread.sleep(1000);
-        sa.enterSponsor("SCHEME SCHEMA SPONSOR11");
+        sa.enterSponsor("JKUAT TESTING");
         Thread.sleep(1000);
         sa.clickSave();
         Thread.sleep(5000);
-        driver.navigate().refresh();
+       // driver.navigate().refresh();
+        driver.quit();
         Thread.sleep(1000);
         //main Menu
         driver.findElement(By.id("ext-gen62")).click();

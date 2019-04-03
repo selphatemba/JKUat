@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JKUat" />
+        <module name="jkuat1" />
         <module name="xi" />
       </profile>
     </annotationProcessing>

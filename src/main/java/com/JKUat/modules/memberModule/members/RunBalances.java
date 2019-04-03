@@ -52,9 +52,9 @@ public class RunBalances extends BaseClass {
 
 
 
-    public void enterInterestRateType(String rate){
+    public void enterInterestRateType(String rate)throws Exception{
 
-        InterestRateType.sendKeys(rate, Keys.TAB);
+        InterestRateType.sendKeys(rate);
     }
 
     public void enterMemberNumber(String num){

@@ -1,13 +1,9 @@
 package com.test.modules.memberRegister.contributions;
 
 import com.JKUat.base.BaseClass;
-
-import com.JKUat.base.LoginPage;
 import com.JKUat.modules.memberModule.contributions.BatchContributions;
 import com.JKUat.modules.schemeSetup.ChangeUserPassword;
-import com.test.base.LoginPageTest;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -405,7 +401,8 @@ public class BatchContributionsTest extends BaseClass {
                 driver.findElement(By.xpath("//*[@id=\"ext-comp-1837\"]/tbody/tr[2]/td[2]")).click();
                 log.info("Batch successfully posted");
                 Thread.sleep(10000);
-                driver.navigate().refresh();
+                //driver.navigate().refresh();
+                driver.quit();
             }
         }
 

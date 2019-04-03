@@ -9,39 +9,41 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class InitiateMovementTest extends BaseClass {
-//    @BeforeClass
-//    public void setUp() throws Exception {
-//        init();
-//
-//    }
-//
-//
-//    @Test(priority = 0)
-//    public void login()throws Exception {
-//        ChangeUserPassword asd = new ChangeUserPassword(driver);
-//        Thread.sleep(3000);
-//        asd.enterloginUsername("selly1");
-//        Thread.sleep(3000);
-//        asd.enterloginPasswd("S@lpha123");
-//        Thread.sleep(3000);
-//        asd.clickSaveLogin();
-//    }
+    @BeforeClass
+    public void setUp() throws Exception {
+        init();
+
+    }
+
+
     @Test(priority = 0)
+    public void login()throws Exception {
+        ChangeUserPassword asd = new ChangeUserPassword(driver);
+        Thread.sleep(3000);
+        asd.enterloginUsername("admin");
+        Thread.sleep(3000);
+        asd.enterloginPasswd("admin");
+        Thread.sleep(3000);
+        asd.clickSaveLogin();
+    }
+    @Test(priority = 1)
     public void initiateMovement() throws Exception {
         log.info("Started iniating a movement");
         InitiateMovement im=new InitiateMovement(driver);
+        Thread.sleep(2000);
+        driver.findElement(By.id("membLnk")).click();
         Thread.sleep(3000);
         im.clickOnMembers();
         Thread.sleep(3000);
         im.clickOnSponsorRegister();
         Thread.sleep(3000);
-        im.enterSponsorName("JKUAT TESTING SPONSOR21");
+        im.enterSponsorName("JKUAT SRBS");
         Thread.sleep(3000);
         im.selectASponsor();
         Thread.sleep(3000);
         im.clickOnViewMembers();
         Thread.sleep(3000);
-        driver.findElement(By.name("mMemberNo")).sendKeys("000048", Keys.ENTER);
+        driver.findElement(By.name("mMemberNo")).sendKeys("1000022", Keys.ENTER);
         Thread.sleep(3000);
         im.selectAmember();
         Thread.sleep(3000);
@@ -53,7 +55,7 @@ public class InitiateMovementTest extends BaseClass {
         Thread.sleep(3000);
         im.dateOfCalculation("02/25/2019");
         Thread.sleep(3000);
-        im.enterRemarks("rrrrrrrrrrr");
+        im.enterRemarks("Resignation");
         Thread.sleep(3000);
         im.enterCurrency("KENYA SHILLINGS");
         Thread.sleep(3000);
@@ -61,7 +63,8 @@ public class InitiateMovementTest extends BaseClass {
         Thread.sleep(3000);
         im.clicksave();
         Thread.sleep(2000);
-        driver.navigate().refresh();
+        //driver.navigate().refresh();
+        driver.quit();
         log.info("completed iniating a movement");
 
     }

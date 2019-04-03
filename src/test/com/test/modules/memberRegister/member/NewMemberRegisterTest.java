@@ -38,18 +38,18 @@ public class NewMemberRegisterTest extends BaseClass {
                 NewMember newMember = new NewMember(driver);
                 Thread.sleep(1500);
                 driver.findElement(By.id("membLnk")).click();
-                for(int i=0;i<=3;i++) {
+//                for(int i=0;i<=3;i++) {
                 Thread.sleep(1500);
                 newMember.clickMemberButton();
                 Thread.sleep(3000);
                 newMember.clicNewkMemberOption();
                 log.info("=======adding a new newMember==========");
-                Thread.sleep(3000);
+                Thread.sleep(2000);
                 newMember.enterTitle("Mr.");
                 Thread.sleep(1500);
-                newMember.enterSurname("Good");
+                newMember.enterSurname("Jackson");
                 Thread.sleep(1500);
-                newMember.enterFirstName("Bad");
+                newMember.enterFirstName("Oloo");
                 Thread.sleep(1500);
                 newMember.enterGender("Male");
                 Thread.sleep(1500);
@@ -67,7 +67,7 @@ public class NewMemberRegisterTest extends BaseClass {
                 Thread.sleep(1500);
                 newMember.enterCostCenter("JKUAT SRBS Cost Centre");
                 Thread.sleep(1500);
-                newMember.enterMemberClass("Teaching Staff");
+                newMember.enterMemberClass("Management");
                 Thread.sleep(5000);
 //        newMember.enterSavingsCategory("");
 //        Thread.sleep(5000);
@@ -81,10 +81,11 @@ public class NewMemberRegisterTest extends BaseClass {
                 Thread.sleep(1000);
                 number = driver.findElement(By.name("member.memberNo")).getAttribute("value");
                 log.info("NewMember number==" + number + " ===has succesfully been added");
-                driver.navigate().refresh();
+               // driver.navigate().refresh();
+                driver.quit();
                 }
             }
-        }
+
 
 
 

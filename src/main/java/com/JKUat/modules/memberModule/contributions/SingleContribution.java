@@ -40,7 +40,7 @@ public class SingleContribution extends BaseClass {
 	@FindBy(xpath = "//*[@id=\"ext-comp-2268\"]")
     WebElement EnterMonth;
 	
-	@FindBy(xpath = "//*[@id=\"ext-comp-2269\"]")
+	@FindBy(name = "contr.year")
     WebElement enterYear;
 
 	@FindBy(xpath = "//*[@id=\"ext-comp-2270\"]")
@@ -62,7 +62,7 @@ public class SingleContribution extends BaseClass {
 
 	public void enterMemberNumber2(String num) {
 		String numStr = num.trim();
-        memberNumber2.sendKeys(numStr,Keys.TAB);
+        memberNumber2.sendKeys(numStr,Keys.ENTER);
 
 	}
 

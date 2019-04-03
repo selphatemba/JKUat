@@ -46,7 +46,7 @@ public class NewSponsor extends BaseClass {
     @FindBy(name = "sponsor.generateCluster")
     WebElement generatememManClu;
 
-    @FindBy(xpath = "//*[@id=\"ext-gen225\"]")
+    @FindBy(xpath = "//*[@id=\"ext-gen225\"]")//*[@id="ext-gen225"]
     WebElement save;
 
 
